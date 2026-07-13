@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Pack long terme 004
+
+- Ajout de 15 artistes majeurs : Etienne Daho, Daniel Balavoine, Michel Berger, Michel Sardou, Julien Clerc, Francis Cabrel, Louise Attaque, Indochine, Telephone, Mano Solo, Benjamin Biolay, Camille, Benabar, Olivia Ruiz et Grand Corps Malade.
+- Ajout de 15 chansons reperes liees aux nouvelles fiches artistes.
+- Ajout de 8 albums structurants.
+- Passage a 50 fiches artistes.
+- Mise a jour de `PROJECT_STATUS.md` et `ROADMAP.md` apres le pack.
+
 ### Ajoute - Pack long terme 003
 
 - Ajout de 10 artistes majeurs : Zebda, Stomy Bugsy, Carla Bruni, Mickey 3D, Noir Desir, Rita Mitsouko, Garou, Zaz, Juliette Armanet et Christine and the Queens.
