@@ -12,6 +12,43 @@ Consacrer 80 % de l’effort a la qualite de l’experience utilisateur et de l�
 
 Une fonctionnalite incomplete mais elegante, fluide et abondamment illustree est preferable a une fonctionnalite exhaustive mais austere. Chaque nouvelle fonctionnalite doit etre concue comme une experience visuelle immersive.
 
+## Objectif final de contenu
+
+- 500 artistes.
+- 5000 chansons.
+- 1500 albums.
+- 1000 illustrations minimum, puis plusieurs milliers de photos, pochettes, affiches, partitions et videos referencees.
+- Plusieurs milliers d’anecdotes.
+- Plusieurs centaines de collections.
+- Plusieurs milliers d’evenements historiques.
+
+Ces nombres sont des objectifs finaux. Chaque session doit augmenter significativement la base, sans jamais considerer le projet comme termine.
+
+## Regle de creation des fiches
+
+Ne jamais recreer une fiche existante.
+
+Avant d’ajouter un artiste, une chanson ou un album :
+
+- verifier s’il existe deja ;
+- s’il existe, l’enrichir avec images, anecdotes, references et liens internes ;
+- sinon, creer une nouvelle fiche complete ;
+- mettre a jour la recherche, les liens internes, les compteurs et les fichiers de suivi.
+
+## Travail par packs
+
+Le travail doit etre organise par lots coherents. Exemple cible :
+
+- 100 nouveaux artistes ;
+- 300 nouvelles chansons ;
+- 100 nouveaux albums ;
+- 500 nouvelles illustrations ;
+- 200 nouvelles anecdotes ;
+- 50 nouvelles photos historiques ;
+- 20 nouvelles collections.
+
+Les premiers packs peuvent etre plus petits pour consolider l’architecture, mais ils doivent toujours augmenter significativement le contenu et preparer le pack suivant.
+
 ## Ordre de developpement imperatif
 
 1. Interface graphique, navigation et design.

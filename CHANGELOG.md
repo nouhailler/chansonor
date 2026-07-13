@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Pack long terme 001
+
+- Ajout du mode de pilotage long terme avec `PROJECT_STATUS.md` et `ROADMAP.md`.
+- Ajout de 12 artistes majeurs : Barbara, Serge Gainsbourg, Georges Brassens, Claude Francois, Dalida, Johnny Hallyday, France Gall, Renaud, Jean-Jacques Goldman, Mylene Farmer, Alain Souchon et Veronique Sanson.
+- Ajout de 12 chansons majeures liees aux nouvelles fiches artistes.
+- Ajout de 5 albums structurants.
+- Ajout de visuels, anecdotes, collaborations, influences, styles, labels, instruments et citations pour les nouvelles fiches artistes.
+- Correction de la liaison album trop large sur la fiche Edith Piaf.
+
 ### Ajoute - Priorite 1
 
 - Demarrage du chantier Priorite 1 avec pages dediees chansons et albums.
