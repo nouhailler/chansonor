@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Pack long terme 005
+
+- Ajout de 15 artistes majeurs : Charles Trenet, Leo Ferre, Juliette Greco, Joe Dassin, Axelle Red, Celine Dion, Orelsan, Maitre Gims, Bigflo et Oli, Angèle, Barbara Pravi, Grégoire, Stromae, Soprano et Vianney.
+- Ajout de 18 chansons reperes, incluant des chansons qui enrichissent des fiches artistes deja existantes.
+- Ajout de 11 albums structurants.
+- Passage a 65 fiches artistes.
+- Mise a jour de `PROJECT_STATUS.md` et `ROADMAP.md` apres le pack.
+
 ### Ajoute - Pack long terme 004
 
 - Ajout de 15 artistes majeurs : Etienne Daho, Daniel Balavoine, Michel Berger, Michel Sardou, Julien Clerc, Francis Cabrel, Louise Attaque, Indochine, Telephone, Mano Solo, Benjamin Biolay, Camille, Benabar, Olivia Ruiz et Grand Corps Malade.
