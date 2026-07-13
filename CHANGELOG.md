@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Pack long terme 008
+
+- Ajout de 20 artistes majeurs : Tino Rossi, Fréhel, Damia, Mistinguett, Fernandel, Pierre Perret, Anne Sylvestre, Nicoletta, Dave, William Sheller, Jacques Higelin, Alain Chamfort, Pierre Bachelet, Liane Foly, Hélène Segara, Alizée, Vitaa, Slimane, Louane et Jain.
+- Ajout de 20 chansons reperes, des racines music-hall aux tubes pop et streaming des annees 2000-2010.
+- Ajout de 10 albums structurants.
+- Passage a 120 fiches artistes.
+- Mise a jour de `PROJECT_STATUS.md` et `ROADMAP.md` apres le pack.
+
 ### Ajoute - Pack long terme 007
 
 - Ajout de 20 artistes majeurs : Charles Aznavour, Jacques Dutronc, Sylvie Vartan, Sheila, Michel Delpech, Serge Reggiani, Hugues Aufray, Jean Ferrat, Bernard Lavilliers, Patrick Bruel, Marc Lavoine, Jean-Louis Aubert, M, Julien Dore, Nolwenn Leroy, Amel Bent, Jenifer, M. Pokora, Yseult, Aya Nakamura et Romeo Elvis.
