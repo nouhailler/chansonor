@@ -1,5 +1,51 @@
 # Contexte Chansonor
 
+## Etat de reprise - 2026-07-13 soir
+
+Dernier commit pousse sur `main` : `69c5e56 Add priority 1 artist pack 011`.
+
+Etat du depot au moment de l’arret :
+
+- Branche : `main`.
+- Depot distant : `origin/main`.
+- Etat Git : propre apres le push du pack 011.
+- Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`.
+- Audit npm : 0 vulnerabilite.
+- Controle identifiants : aucun doublon detecte.
+
+Compteurs actuels apres le pack 011 :
+
+- Artistes : 180 / 500.
+- Chansons : 195 / 5000.
+- Albums : 103 / 1500.
+- Illustrations : 2121 / 1000.
+- Photos : 557.
+- Pochettes : 492.
+- Affiches : 275.
+- Partitions : 0.
+- Anecdotes : 764.
+- Collections : 5.
+- Quiz : 1.
+- Articles : 0.
+- Evenements historiques : 5.
+
+Dernier pack realise :
+
+- Pack long terme 011 - Priorite 1.
+- 20 nouveaux artistes majeurs ajoutes pour atteindre 180 artistes.
+- 23 nouvelles chansons liees aux artistes et aux fiches existantes.
+- 13 nouveaux albums structurants.
+- Axes enrichis : rive gauche, chanson de film, pop Gainsbourg, comedie musicale, nouvelle scene, rap francais, electro-pop et hip-hop pionnier.
+
+Prochaine etape obligatoire :
+
+- Reprendre par **Priorite 1 - pack 012**.
+- Objectif immediat : atteindre au moins **200 artistes majeurs**.
+- Continuer a verifier les doublons avant creation.
+- Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
+- Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.
+- Valider avec `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants, puis commit et push.
+
 ## Vision produit
 
 Chansonor n’est pas un simple catalogue de chanteurs. Le produit vise la plus belle encyclopedie interactive de la chanson francaise : moderne, coloree, fluide, tres illustree et destinee en priorite a un public de 15 a 35 ans.
