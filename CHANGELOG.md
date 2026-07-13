@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Pack long terme 006
+
+- Ajout de 15 artistes majeurs : Alain Bashung, Stephan Eicher, Maurane, Maxime Le Forestier, Yves Montand, Henri Salvador, Bourvil, Georges Moustaki, Gilbert Becaud, Mireille Mathieu, Laurent Voulzy, Raphael, Renan Luce, Coeur de Pirate et Clara Luciani.
+- Ajout de 15 chansons reperes couvrant chanson de texte, music-hall, pop-rock, nouvelle scene et repertoire francophone international.
+- Ajout de 8 albums structurants.
+- Passage a 80 fiches artistes.
+- Mise a jour de `PROJECT_STATUS.md` et `ROADMAP.md` apres le pack.
+
 ### Ajoute - Pack long terme 005
 
 - Ajout de 15 artistes majeurs : Charles Trenet, Leo Ferre, Juliette Greco, Joe Dassin, Axelle Red, Celine Dion, Orelsan, Maitre Gims, Bigflo et Oli, Angèle, Barbara Pravi, Grégoire, Stromae, Soprano et Vianney.
