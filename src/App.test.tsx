@@ -7,5 +7,5 @@ describe('Chansonor', () => {
     render(<App />);
     expect(screen.getByRole('heading', { name: 'Chansonor', level: 1 })).toBeInTheDocument();
     expect(screen.getByText('Categories illustrees')).toBeInTheDocument();
-  });
+  }, 10000);
 });

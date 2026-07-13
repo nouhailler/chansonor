@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Pack long terme 010
+
+- Ajout de 20 artistes majeurs : Georges Ulmer, Boris Vian, Yves Simon, Corynne Charby, Julie Pietri, Yannick Noah, Rachid Taha, Khaled, Faudel, Tragedie, K.Maro, Elodie Frege, Kendji Girac, Lina Margy, Colette Magny, Brigitte Fontaine, Catherine Ribeiro, Sapho, Buzy et Pauline Croze.
+- Ajout de 27 chansons reperes, incluant des enrichissements pour Brassens, Aznavour, Voulzy, Bashung, Stromae, Goldman et Grand Corps Malade.
+- Ajout de 14 albums structurants.
+- Passage a 160 fiches artistes.
+- Mise a jour de `PROJECT_STATUS.md` et `ROADMAP.md` apres le pack.
+
 ### Ajoute - Pack long terme 009
 
 - Ajout de 20 artistes majeurs : Claude Nougaro, Nino Ferrer, Michel Fugain, Serge Lama, Marie Laforet, Salvatore Adamo, Enrico Macias, Boby Lapointe, Herbert Leonard, Christophe, Niagara, Les Innocents, Tryo, Les Cowboys Fringants, Lomepal, Eddy de Pretto, Pomme, Richard Anthony, Desireless et Nana Mouskouri.
