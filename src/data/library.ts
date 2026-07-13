@@ -11,37 +11,93 @@ export const songs: Song[] = [
     id: 'hymne-amour',
     title: "L'Hymne a l'amour",
     artist: 'Edith Piaf',
+    album: 'Chansons parisiennes',
+    author: 'Edith Piaf',
+    composer: 'Marguerite Monnot',
     year: 1950,
+    duration: '3:27',
     style: 'Chanson realiste',
     story: 'Un monument sentimental, pense comme une lettre intime devenue patrimoine populaire.',
-    cover: visual("Pochette lumineuse de L'Hymne a l'amour", 'album', '#ff4f7b', media.vinyl)
+    context: 'La chanson installe une dramaturgie intime : voix au premier plan, orchestre enveloppant et declaration presque cinematographique.',
+    anecdotes: ['Souvent interpretee comme une chanson de scene autant que de disque.', 'Son imaginaire visuel se prete aux archives de music-hall et aux portraits en clair-obscur.'],
+    covers: ['Johnny Hallyday', 'Celine Dion', 'Josh Groban'],
+    charts: ['Standard international', 'Reprises regulieres en television', 'Presence constante dans les anthologies'],
+    listeningLinks: ['Spotify', 'Deezer', 'Apple Music', 'YouTube Music'],
+    cover: visual("Pochette lumineuse de L'Hymne a l'amour", 'album', '#ff4f7b', media.vinyl),
+    gallery: [
+      visual('Portrait de scene dramatique', 'stage', '#ff4f7b', media.stage),
+      visual('Archive papier romantique', 'archive', '#ffb84d', media.archive),
+      visual('Microphone de music-hall', 'object', '#20c7b5', media.microphone)
+    ]
   },
   {
     id: 'ne-me-quitte-pas',
     title: 'Ne me quitte pas',
     artist: 'Jacques Brel',
+    album: 'La valse des mots',
+    author: 'Jacques Brel',
+    composer: 'Jacques Brel / Gerard Jouannest',
     year: 1959,
+    duration: '3:49',
     style: 'Chanson theatrale',
     story: 'Une chanson d’abandon et de theatre interieur, souvent reprise pour sa tension dramatique.',
-    cover: visual('Microphone sous lumiere chaude', 'stage', '#ffb84d', media.microphone)
+    context: 'Le morceau fonctionne comme une scene nue : peu d’images, mais une intensite de geste et de diction qui appelle la video et la photographie de concert.',
+    anecdotes: ['La chanson est devenue un exercice d’interpretation pour plusieurs generations.', 'Elle montre comment une chanson peut etre un monologue dramatique.'],
+    covers: ['Nina Simone', 'Sting', 'Juliette Greco'],
+    charts: ['Classique de repertoire', 'Nombreuses adaptations internationales', 'Titre central des anthologies Brel'],
+    listeningLinks: ['Spotify', 'Deezer', 'Apple Music', 'YouTube Music'],
+    cover: visual('Microphone sous lumiere chaude', 'stage', '#ffb84d', media.microphone),
+    gallery: [
+      visual('Salle rouge de theatre', 'poster', '#ef476f', media.theatre),
+      visual('Piano de repetition', 'object', '#ff7a59', media.studio),
+      visual('Archives de presse de concert', 'archive', '#ffd166', media.archive)
+    ]
   },
   {
     id: 'la-boheme',
     title: 'La Boheme',
     artist: 'Charles Aznavour',
+    album: 'Montmartre memoire',
+    author: 'Jacques Plante',
+    composer: 'Charles Aznavour',
     year: 1965,
+    duration: '4:05',
     style: 'Chanson narrative',
     story: 'Une carte postale de Montmartre, de jeunesse artistique et de souvenirs enjolives.',
-    cover: visual('Paris au crepuscule', 'poster', '#20c7b5', media.paris)
+    context: 'La chanson associe Paris, peinture, jeunesse et nostalgie : une entree ideale pour meler cartes, affiches, photographies et objets d’atelier.',
+    anecdotes: ['Le morceau a contribue a figer un imaginaire populaire de Montmartre.', 'Il permet une lecture geographique autant que musicale.'],
+    covers: ['Kendji Girac', 'Garou', 'Patrick Bruel'],
+    charts: ['Succes durable en francophonie', 'Titre patrimonial', 'Reprises televisuelles frequentes'],
+    listeningLinks: ['Spotify', 'Deezer', 'Apple Music', 'YouTube Music'],
+    cover: visual('Paris au crepuscule', 'poster', '#20c7b5', media.paris),
+    gallery: [
+      visual('Rue parisienne illustree', 'map', '#20c7b5', media.paris),
+      visual('Affiche de cabaret', 'poster', '#ffb84d', media.theatre),
+      visual('Vinyle de collection', 'album', '#1e172d', media.oldRecord)
+    ]
   },
   {
     id: 'voyage-voyage',
     title: 'Voyage, voyage',
     artist: 'Desireless',
+    album: 'Neons francais',
+    author: 'Dominique Dubois',
+    composer: 'Jean-Michel Rivat',
     year: 1986,
+    duration: '4:26',
     style: 'Pop francaise',
     story: 'Synthes aeriennes, refrain mondial et imaginaire de depart permanent.',
-    cover: visual('Scene pop coloree', 'stage', '#7c5cff', media.lights)
+    context: 'Une chanson qui appartient autant au son des annees 80 qu’a l’esthetique du clip : couleurs, neons, silhouettes et television musicale.',
+    anecdotes: ['Le refrain a circule tres largement hors de France.', 'La chanson se prete a des collections sur les clips et la pop visuelle.'],
+    covers: ['Kate Ryan', 'Soap&Skin', 'Gregorian'],
+    charts: ['Succes europeen', 'Hit radio', 'Titre emblematique des annees 80'],
+    listeningLinks: ['Spotify', 'Deezer', 'Apple Music', 'YouTube Music'],
+    cover: visual('Scene pop coloree', 'stage', '#7c5cff', media.lights),
+    gallery: [
+      visual('Cassette pop vintage', 'object', '#7c5cff', media.cassette),
+      visual('Projecteurs de clip', 'video', '#ff4f7b', media.lights),
+      visual('Studio synthetiseur', 'archive', '#20c7b5', media.studio)
+    ]
   }
 ];
 
@@ -54,7 +110,16 @@ export const albums: Album[] = [
     format: 'Vinyle',
     mood: 'Cabaret, texte, nuit parisienne',
     cover: visual('Vinyle noir sur fond colore', 'album', '#1e172d', media.oldRecord),
-    tracks: ['La Boheme', 'Les feuilles mortes', 'Le poinconneur', 'Amsterdam']
+    gallery: [
+      visual('Pochette vinyle rive gauche', 'album', '#1e172d', media.oldRecord),
+      visual('Cabaret parisien', 'poster', '#8f2d56', media.theatre),
+      visual('Archive de presse musicale', 'archive', '#ffb84d', media.archive)
+    ],
+    tracks: ['La Boheme', 'Les feuilles mortes', 'Le poinconneur', 'Amsterdam'],
+    reviews: ['Une selection pensee comme une promenade nocturne.', 'La narration prime sur la virtuosite.'],
+    reissues: ['Edition vinyle couleur', 'Remaster streaming', 'Livret archive numerise'],
+    streaming: ['Spotify', 'Deezer', 'Apple Music'],
+    commercialSuccess: 'Compilation patrimoniale de reference pour la chanson de texte.'
   },
   {
     id: 'pop-80',
@@ -64,7 +129,16 @@ export const albums: Album[] = [
     format: 'Cassette',
     mood: 'Synthes, clips, television',
     cover: visual('Cassette audio vintage', 'album', '#ff7a59', media.cassette),
-    tracks: ['Voyage, voyage', 'Ella elle l’a', 'Nuit de folie', 'Les demons de minuit']
+    gallery: [
+      visual('Cassette audio vintage', 'album', '#ff7a59', media.cassette),
+      visual('Lumiere de plateau TV', 'video', '#7c5cff', media.lights),
+      visual('Foule pop en concert', 'stage', '#20c7b5', media.crowd)
+    ],
+    tracks: ['Voyage, voyage', 'Ella elle l’a', 'Nuit de folie', 'Les demons de minuit'],
+    reviews: ['Une capsule visuelle de la pop FM.', 'La pochette doit evoquer clips, neons et television.'],
+    reissues: ['Cassette collector', 'Playlist augmentee', 'Edition clip remasterise'],
+    streaming: ['Spotify', 'Deezer', 'YouTube Music'],
+    commercialSuccess: 'Selection concue pour les decouvertes rapides et les playlists generationnelles.'
   },
   {
     id: 'scene-live',
@@ -74,7 +148,16 @@ export const albums: Album[] = [
     format: 'CD',
     mood: 'Concerts, foules, refrains',
     cover: visual('Foule de concert sous projecteurs', 'stage', '#20c7b5', media.crowd),
-    tracks: ['Quand la musique est bonne', 'Je te donne', 'Cargo de nuit']
+    gallery: [
+      visual('Foule de concert sous projecteurs', 'stage', '#20c7b5', media.crowd),
+      visual('Microphone live', 'object', '#ff4f7b', media.microphone),
+      visual('Affiche de tournee', 'poster', '#ffb84d', media.poster)
+    ],
+    tracks: ['Quand la musique est bonne', 'Je te donne', 'Cargo de nuit'],
+    reviews: ['Une porte d’entree vers les archives de scene.', 'Ideal pour relier artistes, salles et captations.'],
+    reissues: ['CD remasterise', 'Edition video', 'Bonus Olympia'],
+    streaming: ['Spotify', 'Deezer', 'Apple Music', 'YouTube Music'],
+    commercialSuccess: 'Anthologie live pensee pour les fans de scenes et de refrains collectifs.'
   }
 ];
 
@@ -98,7 +181,11 @@ export const artists: Artist[] = [
     highlights: ['Olympia', 'Music-hall', 'Reprises internationales', 'Archives sonores'],
     collaborations: ['Marguerite Monnot', 'Charles Dumont', 'Yves Montand'],
     influences: ['Rue parisienne', 'Cabaret', 'Theatre populaire'],
-    awards: ['Grand prix du disque', 'Hommages nationaux', 'Reeditions patrimoniales']
+    awards: ['Grand prix du disque', 'Hommages nationaux', 'Reeditions patrimoniales'],
+    instruments: ['Voix', 'Orchestre', 'Accordeon'],
+    label: 'Pathé / Columbia',
+    quotes: ['Quand la voix devient une ville entiere.', 'Une interpretation doit laisser une trace physique.'],
+    anecdotes: ['Ses chansons appellent naturellement portraits, affiches et archives manuscrites.', 'Le music-hall permet de relier scene, presse, disque et cinema.']
   },
   {
     id: 'jacques-brel',
@@ -119,7 +206,11 @@ export const artists: Artist[] = [
     highlights: ['Olympia', 'Cinema', 'Amsterdam', 'Reprises mondiales'],
     collaborations: ['Gerard Jouannest', 'Francois Rauber', 'Barbara'],
     influences: ['Cabaret belge', 'Theatre', 'Chanson de texte'],
-    awards: ['Prix Charles-Cros', 'Hommages internationaux']
+    awards: ['Prix Charles-Cros', 'Hommages internationaux'],
+    instruments: ['Voix', 'Piano', 'Orchestre'],
+    label: 'Philips / Barclay',
+    quotes: ['La scene transforme le texte en image.', 'Chaque chanson avance comme une petite piece de theatre.'],
+    anecdotes: ['Les photos de scene sont essentielles pour comprendre son intensite.', 'Ses chansons forment un graphe naturel de reprises et traductions.']
   },
   {
     id: 'francoise-hardy',
@@ -140,7 +231,11 @@ export const artists: Artist[] = [
     highlights: ['Yeye', 'Mode', 'Pop internationale', 'Pochettes iconiques'],
     collaborations: ['Jacques Dutronc', 'Serge Gainsbourg', 'Michel Berger'],
     influences: ['Folk', 'Pop britannique', 'Cinema'],
-    awards: ['Victoires d’honneur', 'Reeditions critiques']
+    awards: ['Victoires d’honneur', 'Reeditions critiques'],
+    instruments: ['Voix', 'Guitare', 'Arrangements pop'],
+    label: 'Vogue / Warner',
+    quotes: ['La melancolie peut etre lumineuse.', 'Une pochette peut devenir une silhouette.'],
+    anecdotes: ['Son univers relie naturellement chanson, mode, photo et cinema.', 'Les editions internationales ouvrent un parcours par langues et pochettes.']
   }
 ];
 

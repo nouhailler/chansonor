@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { MediaCard } from '../components/MediaCard';
 import { SectionHeader } from '../components/SectionHeader';
 import { placeholderDataUri } from '../components/Visual';
-import { artists, collections } from '../data/library';
+import { albums, artists, songs } from '../data/library';
 import { favoritesStore, type FavoriteItem } from '../services/favorites';
 
 export function FavoritesPage() {
@@ -14,7 +14,11 @@ export function FavoritesPage() {
     favoritesStore.all().then(setItems).catch(() => setItems([]));
   }, []);
 
-  const defaults: FavoriteItem[] = [...artists.slice(0, 2).map((artist) => ({ id: artist.id, type: 'artist' as const, title: artist.name, image: artist.hero.url, color: artist.hero.color })), ...collections.slice(0, 2).map((collection) => ({ id: collection.id, type: 'collection' as const, title: collection.title, image: collection.cover.url, color: collection.color }))];
+  const defaults: FavoriteItem[] = [
+    ...artists.slice(0, 2).map((artist) => ({ id: `artist-${artist.id}`, type: 'artist' as const, title: artist.name, image: artist.hero.url, color: artist.hero.color })),
+    ...songs.slice(0, 2).map((song) => ({ id: `song-${song.id}`, type: 'song' as const, title: song.title, image: song.cover.url, color: song.cover.color })),
+    ...albums.slice(0, 2).map((album) => ({ id: `album-${album.id}`, type: 'album' as const, title: album.title, image: album.cover.url, color: album.cover.color }))
+  ];
   const visible = items.length ? items : defaults;
 
   return (

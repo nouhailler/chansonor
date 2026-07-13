@@ -2,6 +2,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { useMemo, useState } from 'react';
 import { BrowserRouter, Navigate, Route, Routes, useParams } from 'react-router-dom';
 import { AppShell } from './components/AppShell';
+import { AlbumDetailPage, AlbumsPage } from './pages/AlbumsPage';
 import { ArtistDetailPage, ArtistsPage } from './pages/ArtistsPage';
 import { ExplorePage } from './pages/ExplorePage';
 import { FavoritesPage } from './pages/FavoritesPage';
@@ -9,12 +10,23 @@ import { GalleryPage } from './pages/GalleryPage';
 import { HomePage } from './pages/HomePage';
 import { QuizPage } from './pages/QuizPage';
 import { SearchPage } from './pages/SearchPage';
+import { SongDetailPage, SongsPage } from './pages/SongsPage';
 import { TimelinePage } from './pages/TimelinePage';
 import { buildTheme } from './theme';
 
 function ArtistRoute() {
   const { id } = useParams();
   return <ArtistDetailPage id={id} />;
+}
+
+function SongRoute() {
+  const { id } = useParams();
+  return <SongDetailPage id={id} />;
+}
+
+function AlbumRoute() {
+  const { id } = useParams();
+  return <AlbumDetailPage id={id} />;
 }
 
 export function App() {
@@ -38,6 +50,10 @@ export function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/artists" element={<ArtistsPage />} />
             <Route path="/artists/:id" element={<ArtistRoute />} />
+            <Route path="/songs" element={<SongsPage />} />
+            <Route path="/songs/:id" element={<SongRoute />} />
+            <Route path="/albums" element={<AlbumsPage />} />
+            <Route path="/albums/:id" element={<AlbumRoute />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/timeline" element={<TimelinePage />} />
             <Route path="/explore" element={<ExplorePage />} />

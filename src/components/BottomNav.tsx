@@ -1,4 +1,5 @@
 import AlbumIcon from '@mui/icons-material/Album';
+import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 import ExploreIcon from '@mui/icons-material/Explore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import HomeIcon from '@mui/icons-material/Home';
@@ -7,7 +8,7 @@ import TimelineIcon from '@mui/icons-material/Timeline';
 import { BottomNavigation, BottomNavigationAction, Paper } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const routes = ['/', '/artists', '/explore', '/gallery', '/timeline', '/favorites'];
+const routes = ['/', '/artists', '/songs', '/albums', '/explore', '/gallery', '/timeline', '/favorites'];
 
 export function BottomNav() {
   const location = useLocation();
@@ -18,8 +19,8 @@ export function BottomNav() {
       <BottomNavigation value={value} onChange={(_, next) => navigate(next)} showLabels>
         <BottomNavigationAction label="Accueil" value="/" icon={<HomeIcon />} />
         <BottomNavigationAction label="Artistes" value="/artists" icon={<PersonSearchIcon />} />
-        <BottomNavigationAction label="Explorer" value="/explore" icon={<ExploreIcon />} />
-        <BottomNavigationAction label="Frise" value="/timeline" icon={<TimelineIcon />} />
+        <BottomNavigationAction label="Chansons" value="/songs" icon={<AudiotrackIcon />} />
+        <BottomNavigationAction label="Albums" value="/albums" icon={<AlbumIcon />} />
         <BottomNavigationAction label="Favoris" value="/favorites" icon={<FavoriteIcon />} />
       </BottomNavigation>
     </Paper>

@@ -1,4 +1,5 @@
 import AlbumIcon from '@mui/icons-material/Album';
+import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import ExploreIcon from '@mui/icons-material/Explore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -19,6 +20,8 @@ interface AppShellProps {
 const nav = [
   { to: '/', label: 'Accueil', icon: HomeIcon },
   { to: '/artists', label: 'Artistes', icon: PersonSearchIcon },
+  { to: '/songs', label: 'Chansons', icon: AudiotrackIcon },
+  { to: '/albums', label: 'Albums', icon: AlbumIcon },
   { to: '/explore', label: 'Explorer', icon: ExploreIcon },
   { to: '/gallery', label: 'Galerie', icon: ExploreIcon },
   { to: '/timeline', label: 'Frise', icon: TimelineIcon },

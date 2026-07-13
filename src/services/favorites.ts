@@ -11,7 +11,7 @@ const dbPromise = openDB(DB_NAME, 1, {
 
 export interface FavoriteItem {
   id: string;
-  type: 'artist' | 'song' | 'album' | 'collection';
+  type: 'artist' | 'song' | 'album';
   title: string;
   image?: string;
   color: string;

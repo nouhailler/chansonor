@@ -4,6 +4,18 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Priorite 1
+
+- Demarrage du chantier Priorite 1 avec pages dediees chansons et albums.
+- Ajout des fiches chansons illustrees : pochette, album, auteur, compositeur, annee, duree, histoire, contexte, anecdotes, reprises, classements et liens d’ecoute.
+- Ajout des fiches albums illustrees : grande couverture, galerie, pistes, critiques, reeditions, streaming et succes commercial.
+- Renforcement des fiches artistes avec instruments, maison de disque, citations, anecdotes et ajout aux favoris.
+- Navigation enrichie vers artistes, chansons, albums, recherche, galerie et favoris.
+- Recherche reliee aux fiches detaillees artistes, chansons et albums.
+- Favoris recentres sur les artistes, chansons et albums.
+- Accueil renforce avec derniers albums, dernieres chansons, citation et capsule historique.
+- Galerie enrichie avec les visuels associes aux chansons et albums.
+
 ### Ajoute
 
 - Initialisation de l’application Chansonor avec React, TypeScript et Vite.

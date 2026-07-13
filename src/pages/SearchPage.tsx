@@ -22,8 +22,8 @@ export function SearchPage() {
   const results = useMemo<Result[]>(() => {
     const all: Result[] = [
       ...artists.map((artist) => ({ id: artist.id, title: artist.name, subtitle: artist.styles.join(', '), type: 'Artiste', image: artist.hero, href: `/artists/${artist.id}` })),
-      ...songs.map((song) => ({ id: song.id, title: song.title, subtitle: `${song.artist} · ${song.style}`, type: 'Chanson', year: song.year, image: song.cover })),
-      ...albums.map((album) => ({ id: album.id, title: album.title, subtitle: `${album.artist} · ${album.format}`, type: 'Album', year: album.year, image: album.cover })),
+      ...songs.map((song) => ({ id: song.id, title: song.title, subtitle: `${song.artist} · ${song.style} · ${song.author}`, type: 'Chanson', year: song.year, image: song.cover, href: `/songs/${song.id}` })),
+      ...albums.map((album) => ({ id: album.id, title: album.title, subtitle: `${album.artist} · ${album.format}`, type: 'Album', year: album.year, image: album.cover, href: `/albums/${album.id}` })),
       ...collections.map((collection) => ({ id: collection.id, title: collection.title, subtitle: collection.subtitle, type: 'Collection', image: collection.cover }))
     ];
     const normalized = query.trim().toLowerCase();

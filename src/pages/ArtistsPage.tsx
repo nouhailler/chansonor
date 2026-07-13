@@ -1,10 +1,12 @@
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import MapIcon from '@mui/icons-material/Map';
 import MicExternalOnIcon from '@mui/icons-material/MicExternalOn';
-import { Box, Chip, Container, Grid2 as Grid, Paper, Stack, Typography } from '@mui/material';
+import { Box, Button, Chip, Container, Grid2 as Grid, Paper, Stack, Typography } from '@mui/material';
 import { MediaCard } from '../components/MediaCard';
 import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
 import { artists } from '../data/library';
+import { favoritesStore } from '../services/favorites';
 
 export function ArtistsPage() {
   return (
@@ -23,6 +25,16 @@ export function ArtistsPage() {
 
 export function ArtistDetailPage({ id }: { id?: string }) {
   const artist = artists.find((item) => item.id === id) ?? artists[0];
+  const favorite = () => {
+    void favoritesStore.toggle({
+      id: `artist-${artist.id}`,
+      type: 'artist',
+      title: artist.name,
+      image: artist.hero.url,
+      color: artist.hero.color
+    });
+  };
+
   return (
     <Box>
       <Box sx={{ background: `linear-gradient(135deg, ${artist.hero.color}, #1e172d)`, color: 'white', pt: 5, pb: { xs: 5, md: 8 } }}>
@@ -41,6 +53,9 @@ export function ArtistDetailPage({ id }: { id?: string }) {
                 <Chip icon={<MapIcon />} label={artist.region} sx={{ bgcolor: 'white', fontWeight: 900 }} />
                 <Chip icon={<MicExternalOnIcon />} label={artist.years} sx={{ bgcolor: 'white', fontWeight: 900 }} />
               </Stack>
+              <Button onClick={favorite} variant="contained" startIcon={<FavoriteIcon />} sx={{ mt: 3, borderRadius: 999, bgcolor: 'white', color: 'primary.main', '&:hover': { bgcolor: 'rgba(255,255,255,.9)' } }}>
+                Ajouter aux favoris
+              </Button>
             </Grid>
           </Grid>
         </Container>
@@ -95,13 +110,17 @@ export function ArtistDetailPage({ id }: { id?: string }) {
           {[
             ['Collaborations', artist.collaborations],
             ['Influences', artist.influences],
+            ['Instruments', artist.instruments],
+            ['Maison de disque', [artist.label]],
+            ['Citations', artist.quotes],
+            ['Anecdotes', artist.anecdotes],
             ['Recompenses', artist.awards]
           ].map(([title, items]) => (
-            <Grid size={{ xs: 12, md: 4 }} key={title as string}>
+            <Grid size={{ xs: 12, md: title === 'Citations' || title === 'Anecdotes' ? 6 : 4 }} key={title as string}>
               <Paper sx={{ p: 2.5, borderRadius: 4, minHeight: 220, background: 'linear-gradient(135deg, rgba(255,79,123,.12), rgba(32,199,181,.12))' }}>
                 <Typography variant="h5" sx={{ fontWeight: 950 }}>{title as string}</Typography>
                 <Stack gap={1} sx={{ mt: 2 }}>
-                  {(items as string[]).map((item) => <Chip key={item} label={item} sx={{ justifyContent: 'start', fontWeight: 800 }} />)}
+                  {(items as string[]).map((item) => <Chip key={item} label={item} sx={{ justifyContent: 'start', fontWeight: 800, height: 'auto', py: .8, '& .MuiChip-label': { whiteSpace: 'normal' } }} />)}
                 </Stack>
               </Paper>
             </Grid>

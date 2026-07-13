@@ -8,8 +8,8 @@ import { artists, albums, songs, timeline } from '../data/library';
 export function GalleryPage() {
   const assets = [
     ...artists.flatMap((artist) => [artist.hero, ...artist.gallery]),
-    ...albums.map((album) => album.cover),
-    ...songs.map((song) => song.cover),
+    ...albums.flatMap((album) => [album.cover, ...album.gallery]),
+    ...songs.flatMap((song) => [song.cover, ...song.gallery]),
     ...timeline.map((event) => event.image)
   ];
 

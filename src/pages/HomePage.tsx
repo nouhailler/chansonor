@@ -115,19 +115,19 @@ export function HomePage() {
         </Box>
 
         <Box sx={{ mt: 6 }}>
-          <SectionHeader eyebrow="Albums populaires" title="Pochettes, formats et editions" />
+          <SectionHeader eyebrow="Derniers albums" title="Pochettes, formats et editions" action={<Button component={RouterLink} to="/albums" variant="outlined">Tout voir</Button>} />
           <HorizontalRail>
-            {albums.map((album) => <MediaCard key={album.id} title={album.title} subtitle={`${album.artist} · ${album.format} · ${album.year}`} image={album.cover} badge={album.mood} />)}
+            {albums.map((album) => <MediaCard key={album.id} title={album.title} subtitle={`${album.artist} · ${album.format} · ${album.year}`} image={album.cover} badge={album.mood} href={`/albums/${album.id}`} />)}
           </HorizontalRail>
         </Box>
 
         <Grid container spacing={3} sx={{ mt: 5 }}>
           <Grid size={{ xs: 12, md: 7 }}>
-            <SectionHeader eyebrow="Playlist decouverte" title="Quatre titres pour partir" />
+            <SectionHeader eyebrow="Dernieres chansons" title="Quatre titres pour partir" action={<Button component={RouterLink} to="/songs" variant="outlined">Tout voir</Button>} />
             <Grid container spacing={2}>
               {songs.map((song) => (
                 <Grid size={{ xs: 12, sm: 6 }} key={song.id}>
-                  <MediaCard title={song.title} subtitle={`${song.artist} · ${song.year}`} image={song.cover} badge={song.style} wide />
+                  <MediaCard title={song.title} subtitle={`${song.artist} · ${song.year} · ${song.duration}`} image={song.cover} badge={song.style} href={`/songs/${song.id}`} wide />
                 </Grid>
               ))}
             </Grid>
@@ -149,11 +149,42 @@ export function HomePage() {
         </Grid>
 
         <Box sx={{ mt: 7 }}>
-          <SectionHeader eyebrow="Decennies" title="Chaque epoque a son image" />
+          <SectionHeader eyebrow="Decouverte aleatoire" title="Chaque epoque a son image" />
           <HorizontalRail>
             {decades.map((decade) => <MediaCard key={decade.id} title={decade.label} subtitle={decade.tone} image={decade.image} badge={decade.objects[0]} wide />)}
           </HorizontalRail>
         </Box>
+
+        <Grid container spacing={3} sx={{ mt: 7 }}>
+          <Grid size={{ xs: 12, md: 6 }}>
+            <Paper sx={{ p: { xs: 2.5, md: 3.5 }, borderRadius: 5, background: 'linear-gradient(135deg, rgba(255,79,123,.14), rgba(255,184,77,.18))' }}>
+              <Grid container spacing={2.5} alignItems="center">
+                <Grid size={{ xs: 12, sm: 5 }}>
+                  <Visual asset={artists[1].gallery[0]} ratio="4 / 3" rounded={20} />
+                </Grid>
+                <Grid size={{ xs: 12, sm: 7 }}>
+                  <Chip label="Citation" color="primary" sx={{ fontWeight: 900, mb: 1 }} />
+                  <Typography variant="h5" sx={{ fontWeight: 950 }}>{artists[1].quotes[0]}</Typography>
+                  <Typography color="text.secondary" sx={{ mt: 1 }}>{artists[1].name}</Typography>
+                </Grid>
+              </Grid>
+            </Paper>
+          </Grid>
+          <Grid size={{ xs: 12, md: 6 }}>
+            <Paper sx={{ p: { xs: 2.5, md: 3.5 }, borderRadius: 5, background: 'linear-gradient(135deg, rgba(32,199,181,.14), rgba(124,92,255,.16))' }}>
+              <Grid container spacing={2.5} alignItems="center">
+                <Grid size={{ xs: 12, sm: 5 }}>
+                  <Visual asset={timeline[1].image} ratio="4 / 3" rounded={20} />
+                </Grid>
+                <Grid size={{ xs: 12, sm: 7 }}>
+                  <Chip label="Il y a 71 ans aujourd’hui" color="secondary" sx={{ fontWeight: 900, mb: 1 }} />
+                  <Typography variant="h5" sx={{ fontWeight: 950 }}>{timeline[1].title}</Typography>
+                  <Typography color="text.secondary" sx={{ mt: 1 }}>Une capsule historique a enrichir avec dates reelles, anniversaires et sorties.</Typography>
+                </Grid>
+              </Grid>
+            </Paper>
+          </Grid>
+        </Grid>
 
         <Paper sx={{ mt: 7, p: { xs: 2.5, md: 4 }, borderRadius: 5, background: 'linear-gradient(135deg,#1e172d,#7c5cff)', color: 'white' }}>
           <Grid container spacing={3} alignItems="center">

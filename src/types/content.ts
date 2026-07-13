@@ -27,16 +27,30 @@ export interface Artist {
   collaborations: string[];
   influences: string[];
   awards: string[];
+  instruments: string[];
+  label: string;
+  quotes: string[];
+  anecdotes: string[];
 }
 
 export interface Song {
   id: string;
   title: string;
   artist: string;
+  album: string;
+  author: string;
+  composer: string;
   year: number;
+  duration: string;
   style: string;
   story: string;
+  context: string;
+  anecdotes: string[];
+  covers: string[];
+  charts: string[];
+  listeningLinks: string[];
   cover: VisualAsset;
+  gallery: VisualAsset[];
 }
 
 export interface Album {
@@ -47,7 +61,12 @@ export interface Album {
   format: string;
   mood: string;
   cover: VisualAsset;
+  gallery: VisualAsset[];
   tracks: string[];
+  reviews: string[];
+  reissues: string[];
+  streaming: string[];
+  commercialSuccess: string;
 }
 
 export interface Collection {
