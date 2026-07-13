@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 120 / 500
+Artistes : 140 / 500
 
-Chansons : 124 / 5000
+Chansons : 145 / 5000
 
-Albums : 65 / 1500
+Albums : 76 / 1500
 
-Illustrations : 1380 / 1000
+Illustrations : 1608 / 1000
 
-Photos : 374
+Photos : 434
 
-Pochettes : 313
+Pochettes : 365
 
-Affiches : 166
+Affiches : 197
 
 Partitions : 0
 
-Anecdotes : 494
+Anecdotes : 578
 
 Collections : 5
 
@@ -30,17 +30,17 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 008 - Priorite 1.
+Pack long terme 009 - Priorite 1.
 
-- 20 nouveaux artistes majeurs ajoutes pour atteindre 120 artistes.
-- 20 nouvelles chansons liees aux artistes.
-- 10 nouveaux albums structurants.
-- Enrichissement des racines music-hall, chanson realiste, chanson populaire, pop 2000 et grandes voix contemporaines.
-- 80 nouveaux visuels attaches aux chansons.
-- 40 nouveaux visuels attaches aux albums.
+- 20 nouveaux artistes majeurs ajoutes pour atteindre 140 artistes.
+- 21 nouvelles chansons liees aux artistes et aux fiches existantes.
+- 11 nouveaux albums structurants.
+- Enrichissement chanson jazz, pop soul, variete dramatique, francophonie internationale, pop rock 90, reggae chanson, Quebec et nouvelle scene.
+- 84 nouveaux visuels attaches aux chansons.
+- 44 nouveaux visuels attaches aux albums.
 - 100 nouveaux visuels attaches aux nouveaux artistes.
-- 80 nouvelles anecdotes ajoutees aux fiches.
+- 84 nouvelles anecdotes ajoutees aux fiches.
 
 ## Prochaine tache
 
-Priorite 1 : pack 009, atteindre au moins 140 artistes majeurs, puis enrichir les fiches historiques avec sources d’illustrations patrimoniales, concerts, galeries et chansons supplementaires.
+Priorite 1 : pack 010, atteindre au moins 160 artistes majeurs, puis enrichir les fiches historiques avec sources d’illustrations patrimoniales, concerts, galeries et chansons supplementaires.
