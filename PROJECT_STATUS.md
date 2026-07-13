@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 160 / 500
+Artistes : 180 / 500
 
-Chansons : 172 / 5000
+Chansons : 195 / 5000
 
-Albums : 90 / 1500
+Albums : 103 / 1500
 
-Illustrations : 1872 / 1000
+Illustrations : 2121 / 1000
 
-Photos : 494
+Photos : 557
 
-Pochettes : 433
+Pochettes : 492
 
-Affiches : 237
+Affiches : 275
 
 Partitions : 0
 
-Anecdotes : 672
+Anecdotes : 764
 
 Collections : 5
 
@@ -30,17 +30,17 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 010 - Priorite 1.
+Pack long terme 011 - Priorite 1.
 
-- 20 nouveaux artistes majeurs ajoutes pour atteindre 160 artistes.
-- 27 nouvelles chansons liees aux artistes et aux fiches existantes.
-- 14 nouveaux albums structurants.
-- Enrichissement cabaret, chanson satirique, chanson experimentale, pop 80, rock rai, R&B 2000, autrices alternatives et pop contemporaine.
-- 108 nouveaux visuels attaches aux chansons.
-- 56 nouveaux visuels attaches aux albums.
+- 20 nouveaux artistes majeurs ajoutes pour atteindre 180 artistes.
+- 23 nouvelles chansons liees aux artistes et aux fiches existantes.
+- 13 nouveaux albums structurants.
+- Enrichissement rive gauche, chanson de film, pop Gainsbourg, comedie musicale, nouvelle scene, rap francais, electro-pop et hip-hop pionnier.
+- 92 nouveaux visuels attaches aux chansons.
+- 52 nouveaux visuels attaches aux albums.
 - 100 nouveaux visuels attaches aux nouveaux artistes.
-- 94 nouvelles anecdotes ajoutees aux fiches.
+- 92 nouvelles anecdotes ajoutees aux fiches.
 
 ## Prochaine tache
 
-Priorite 1 : pack 011, atteindre au moins 180 artistes majeurs, puis enrichir les fiches historiques avec sources d’illustrations patrimoniales, concerts, galeries et chansons supplementaires.
+Priorite 1 : pack 012, atteindre au moins 200 artistes majeurs, puis enrichir les fiches historiques avec sources d’illustrations patrimoniales, concerts, galeries et chansons supplementaires.
