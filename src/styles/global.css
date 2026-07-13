@@ -1,0 +1,40 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/inter/800.css';
+@import '@fontsource/inter/900.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: #fff8f3;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 12% 12%, rgba(255, 79, 123, .12), transparent 26%),
+    radial-gradient(circle at 92% 22%, rgba(32, 199, 181, .13), transparent 30%),
+    radial-gradient(circle at 40% 96%, rgba(255, 184, 77, .12), transparent 28%);
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}

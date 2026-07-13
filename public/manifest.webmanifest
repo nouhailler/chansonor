@@ -1,0 +1,18 @@
+{
+  "name": "Chansonor",
+  "short_name": "Chansonor",
+  "description": "La plus belle encyclopedie interactive de la chanson francaise.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff7f2",
+  "theme_color": "#ff4f7b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
