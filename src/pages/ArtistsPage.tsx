@@ -139,6 +139,8 @@ export function ArtistDetailPage({ id }: { id?: string }) {
             ['Influences', artist.influences],
             ['Instruments', artist.instruments],
             ['Maison de disque', [artist.label]],
+            ['Singles', artist.singles],
+            ['Liens internes', artist.internalLinks],
             ['Citations', artist.quotes],
             ['Anecdotes', artist.anecdotes],
             ['Recompenses', artist.awards]

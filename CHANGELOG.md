@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Pack long terme 003
+
+- Ajout de 10 artistes majeurs : Zebda, Stomy Bugsy, Carla Bruni, Mickey 3D, Noir Desir, Rita Mitsouko, Garou, Zaz, Juliette Armanet et Christine and the Queens.
+- Ajout de 10 chansons reperes liees aux nouvelles fiches artistes.
+- Ajout de 5 albums structurants.
+- Ajout des champs `singles` et `internalLinks` au modele artiste.
+- Ajout des sections Singles et Liens internes dans les fiches artistes.
+- Mise a jour de `PROJECT_STATUS.md` et `ROADMAP.md` apres le pack.
+
 ### Ajoute - Pack long terme 002
 
 - Ajout de 10 artistes majeurs avec focus annees 1990-2000 : Zazie, Florent Pagny, Pascal Obispo, Lara Fabian, Patricia Kaas, MC Solaar, IAM, NTM, Calogero et Vanessa Paradis.

@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 25 / 500
+Artistes : 35 / 500
 
-Chansons : 26 / 5000
+Chansons : 36 / 5000
 
-Albums : 13 / 1500
+Albums : 18 / 1500
 
-Illustrations : 300 / 1000
+Illustrations : 410 / 1000
 
-Photos : 80
+Photos : 110
 
-Pochettes : 70
+Pochettes : 95
 
-Affiches : 32
+Affiches : 45
 
 Partitions : 0
 
-Anecdotes : 102
+Anecdotes : 142
 
 Collections : 5
 
@@ -30,13 +30,13 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 002 - Priorite 1.
+Pack long terme 003 - Priorite 1.
 
-- 10 nouveaux artistes majeurs ajoutes avec focus annees 1990-2000.
+- 10 nouveaux artistes majeurs ajoutes avec focus varietes, rap, rock et nouvelles scenes francophones.
 - 10 nouvelles chansons liees aux artistes.
 - 5 nouveaux albums structurants.
-- Chronologies et concerts ajoutes au modele artiste.
-- Les 15 fiches artistes existantes disposent maintenant de sections chronologie et concerts.
+- Singles et liens internes ajoutes au modele artiste et a l’interface.
+- Les fiches artistes existantes disposent maintenant de sections singles et liens internes.
 - 40 nouveaux visuels attaches aux chansons.
 - 20 nouveaux visuels attaches aux albums.
 - 50 nouveaux visuels attaches aux nouveaux artistes.
@@ -44,4 +44,4 @@ Pack long terme 002 - Priorite 1.
 
 ## Prochaine tache
 
-Priorite 1 : pack 003, atteindre au moins 35 artistes majeurs avec un focus varietes, rap, rock et nouvelles scenes francophones, puis enrichir les fiches avec singles et liens internes.
+Priorite 1 : pack 004, atteindre au moins 50 artistes majeurs, puis densifier les artistes existants avec plus de singles, concerts, chronologies et liens internes.

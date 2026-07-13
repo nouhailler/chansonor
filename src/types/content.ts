@@ -33,6 +33,8 @@ export interface Artist {
   anecdotes: string[];
   chronology: string[];
   concerts: string[];
+  singles: string[];
+  internalLinks: string[];
 }
 
 export interface Song {
