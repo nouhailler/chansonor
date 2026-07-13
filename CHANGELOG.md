@@ -4,6 +4,16 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-13
 
+### Ajoute - Pack long terme 002
+
+- Ajout de 10 artistes majeurs avec focus annees 1990-2000 : Zazie, Florent Pagny, Pascal Obispo, Lara Fabian, Patricia Kaas, MC Solaar, IAM, NTM, Calogero et Vanessa Paradis.
+- Ajout de 10 chansons reperes liees aux nouvelles fiches artistes.
+- Ajout de 5 albums structurants.
+- Ajout des champs `chronology` et `concerts` au modele artiste.
+- Enrichissement de toutes les fiches artistes avec chronologie et concerts.
+- Ajout de sections visuelles Chronologie et Concerts dans la fiche artiste.
+- Mise a jour de `PROJECT_STATUS.md` et `ROADMAP.md` apres le pack.
+
 ### Ajoute - Pack long terme 001
 
 - Ajout du mode de pilotage long terme avec `PROJECT_STATUS.md` et `ROADMAP.md`.

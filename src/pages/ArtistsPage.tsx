@@ -107,6 +107,33 @@ export function ArtistDetailPage({ id }: { id?: string }) {
         </Grid>
 
         <Grid container spacing={3} sx={{ mt: 6 }}>
+          <Grid size={{ xs: 12, md: 6 }}>
+            <SectionHeader eyebrow="Chronologie" title="Moments cles" />
+            <Paper sx={{ p: 2.5, borderRadius: 4, minHeight: 260 }}>
+              <Stack gap={1.2}>
+                {artist.chronology.map((item, index) => (
+                  <Box key={item} sx={{ display: 'grid', gridTemplateColumns: '52px 1fr', gap: 1.5, alignItems: 'center' }}>
+                    <Box sx={{ width: 42, height: 42, borderRadius: 3, display: 'grid', placeItems: 'center', bgcolor: index === 0 ? 'primary.main' : 'secondary.main', color: 'white', fontWeight: 950 }}>{index + 1}</Box>
+                    <Typography sx={{ fontWeight: 850 }}>{item}</Typography>
+                  </Box>
+                ))}
+              </Stack>
+            </Paper>
+          </Grid>
+          <Grid size={{ xs: 12, md: 6 }}>
+            <SectionHeader eyebrow="Concerts" title="Scenes et lives a documenter" />
+            <Paper sx={{ p: 2.5, borderRadius: 4, minHeight: 260, background: 'linear-gradient(135deg, rgba(124,92,255,.12), rgba(255,184,77,.14))' }}>
+              <Stack direction="row" gap={1} flexWrap="wrap">
+                {artist.concerts.map((concert) => <Chip key={concert} label={concert} sx={{ fontWeight: 850, height: 'auto', py: .8, '& .MuiChip-label': { whiteSpace: 'normal' } }} />)}
+              </Stack>
+              <Box sx={{ mt: 2 }}>
+                <Visual asset={artist.gallery[0]} ratio="16 / 9" rounded={18} />
+              </Box>
+            </Paper>
+          </Grid>
+        </Grid>
+
+        <Grid container spacing={3} sx={{ mt: 6 }}>
           {[
             ['Collaborations', artist.collaborations],
             ['Influences', artist.influences],

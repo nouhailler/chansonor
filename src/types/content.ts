@@ -31,6 +31,8 @@ export interface Artist {
   label: string;
   quotes: string[];
   anecdotes: string[];
+  chronology: string[];
+  concerts: string[];
 }
 
 export interface Song {
