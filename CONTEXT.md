@@ -2,13 +2,13 @@
 
 ## Etat de reprise - 2026-07-14
 
-Dernier commit pousse sur `main` : a mettre a jour apres validation du pack 012.
+Dernier commit pousse sur `main` : `40b0424 Add priority 1 artist pack 012`.
 
 Etat du depot au moment de l’arret :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : pack 012 valide localement, pret pour commit.
+- Etat Git : propre apres le push du pack 012.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
