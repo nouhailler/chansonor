@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 272 / 500
+Artistes : 300 / 500
 
-Chansons : 286 / 5000
+Chansons : 314 / 5000
 
-Albums : 148 / 1500
+Albums : 158 / 1500
 
-Illustrations : 3080 / 1000
+Illustrations : 3419 / 1000
 
-Photos : 830
+Photos : 923
 
-Pochettes : 717
+Pochettes : 791
 
-Affiches : 451
+Affiches : 518
 
 Partitions : 0
 
-Anecdotes : 1128
+Anecdotes : 1256
 
 Collections : 5
 
@@ -30,17 +30,17 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 016 - Priorite 1.
+Pack long terme 017 - Priorite 1.
 
-- 20 nouveaux artistes majeurs ajoutes pour poursuivre vers 300 artistes.
-- 20 nouvelles chansons liees aux artistes et aux fiches existantes.
-- 10 nouveaux albums structurants.
-- Enrichissement pop independante, electro-pop, synth-pop virale, French touch, bedroom pop, performance pop-rap et chanson digitale.
-- 80 nouveaux visuels attaches aux chansons.
-- 40 nouveaux visuels attaches aux albums.
-- 100 nouveaux visuels attaches aux nouveaux artistes.
-- 80 nouvelles anecdotes ajoutees aux fiches.
+- 31 nouveaux artistes majeurs ajoutes pour atteindre 300 artistes.
+- 32 nouvelles chansons liees aux artistes et aux fiches existantes.
+- 13 nouveaux albums structurants.
+- Enrichissement rap francophone actuel, rap belge, drill, trap, afro-pop urbaine, rap feminin, cyber rap et diasporas francophones.
+- 128 nouveaux visuels attaches aux chansons.
+- 52 nouveaux visuels attaches aux albums.
+- 155 nouveaux visuels attaches aux nouveaux artistes.
+- 128 nouvelles anecdotes ajoutees aux fiches.
 
 ## Prochaine tache
 
-Priorite 1 : pack 017, atteindre 300 artistes majeurs avec un lot de nouvelles scenes, rap/pop actuelle et francophonie recente.
+Priorite 1 : pack 018, consolider le seuil de 300 artistes avec albums, chansons et liens internes supplementaires, puis poursuivre vers 350 artistes.

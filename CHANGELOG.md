@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 017
+
+- Ajout de 31 artistes majeurs : Luidji, Josman, Nekfeu, PNL, SCH, Ninho, Damso, Hamza, PLK, Vald, Soolking, Niska, Lacrim, Leto, Zola, Tiakola, Gazo, SDM, Dinos, Disiz, Chilla, Lous and The Yakuza, Kalika, Meryl, Le Juiice, Jok'air, S.Pri Noir, Shay, Freeze Corleone, Laylow et Maes.
+- Ajout de 32 chansons reperes autour du rap francophone actuel, du rap belge, de la drill, de la trap, de l’afro-pop urbaine, du rap feminin, du cyber rap et des diasporas francophones.
+- Ajout de 13 albums structurants.
+- Passage a 300 fiches artistes et validation du seuil de 300 artistes majeurs.
+- Consolidation des parcours rap/pop actuelle et francophonie recente.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 016
 
 - Ajout de 20 artistes majeurs : L'Imperatrice, Vendredi sur Mer, Fishbach, Juniore, Requin Chagrin, Agar Agar, Polo & Pan, Bon Entendeur, Therapie Taxi, Videoclub, Alice et Moi, Voyou, Malik Djoudi, Hervé, Terrenoire, Tim Dup, November Ultra, Silly Boy Blue, Suzane et Aloise Sauvage.
