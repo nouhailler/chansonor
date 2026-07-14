@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 013
+
+- Ajout de 20 artistes majeurs : Lucienne Delyle, Suzy Solidor, Jacqueline Francois, Patachou, Juliette, Pierre Vassiliu, Gerard Lenorman, Michel Jonasz, Nicole Croisille, Nicole Rieu, Rika Zarai, Marie-Paule Belle, Chantal Goya, Carlos, Annie Cordy, Line Renaud, Philippe Clay, Guy Beart, Graeme Allwright et Henri Tachan.
+- Ajout de 20 chansons reperes autour du music-hall, du cabaret, de la variete 70-80, de la chanson jeunesse, du jazz chanson et du folk engage.
+- Ajout de 10 albums structurants.
+- Passage a 221 fiches artistes.
+- Consolidation des axes historiques et patrimoniaux avant la progression vers 250 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 012
 
 - Ajout de 20 artistes majeurs : Felix Leclerc, Gilles Vigneault, Robert Charlebois, Diane Dufresne, CharlElie Couture, Mano Negra, Les Tetes Raides, Les Ogres de Barback, La Rue Ketanou, Matmatah, Dionysos, Emily Loizeau, Jeanne Cherhal, Keren Ann, Yael Naim, Hindi Zahra, Imany, Indila, Feu! Chatterton et La Femme.
