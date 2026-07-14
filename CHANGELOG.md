@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 016
+
+- Ajout de 20 artistes majeurs : L'Imperatrice, Vendredi sur Mer, Fishbach, Juniore, Requin Chagrin, Agar Agar, Polo & Pan, Bon Entendeur, Therapie Taxi, Videoclub, Alice et Moi, Voyou, Malik Djoudi, Hervé, Terrenoire, Tim Dup, November Ultra, Silly Boy Blue, Suzane et Aloise Sauvage.
+- Ajout de 20 chansons reperes autour de la pop independante, de l’electro-pop, de la synth-pop virale, de la French touch, de la bedroom pop et de la performance pop-rap.
+- Ajout de 10 albums structurants.
+- Passage a 272 fiches artistes.
+- Consolidation des parcours 2010-2020 pour le public 15-35 ans.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 015
 
 - Ajout de 10 artistes majeurs : Vincent Delerm, Alex Beaupain, Da Silva, Albin de la Simone, Bertrand Belin, La Grande Sophie, Moriarty, Mélissa Laveaux, Rose et HK et les Saltimbanks.
