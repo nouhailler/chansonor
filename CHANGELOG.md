@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 019
+
+- Ajout de 20 artistes majeurs : Jul, Naps, Heuss l'Enfoiré, Dadju, Tayc, Vegedream, KeBlack, Franglish, Lartiste, Marwa Loud, Eva, Wejdene, Imen Es, Lynda, Shy'm, Tal, Kenza Farah, Nej', Zaho et Singuila.
+- Ajout de 20 chansons reperes autour du rap marseillais, de la pop urbaine, du R&B francophone, de l’afrolove, de l’afro-pop, des tubes de clubs, du R&B 2000 et de la generation reseaux.
+- Ajout de 10 albums structurants.
+- Passage a 340 fiches artistes et progression vers le seuil de 350 artistes majeurs.
+- Preparation du pack 020 pour atteindre 350 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 018
 
 - Ajout de 20 artistes majeurs : Zaho de Sagazan, Clara Ysé, Pierre de Maere, Yoa, Styleto, Adé, Mentissa, Ben Mazué, Gaël Faye, FAUVE, Hoshi, Camélia Jordana, Nach, Clio, Auren, La Zarra, Nuit Incolore, Joseph Kamel, Santa et Pierre Garnier.

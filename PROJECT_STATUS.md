@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 320 / 500
+Artistes : 340 / 500
 
-Chansons : 334 / 5000
+Chansons : 354 / 5000
 
-Albums : 168 / 1500
+Albums : 178 / 1500
 
-Illustrations : 3639 / 1000
+Illustrations : 3859 / 1000
 
-Photos : 983
+Photos : 1043
 
-Pochettes : 841
+Pochettes : 891
 
-Affiches : 548
+Affiches : 578
 
 Partitions : 0
 
-Anecdotes : 1336
+Anecdotes : 1416
 
 Collections : 5
 
@@ -30,12 +30,12 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 018 - Priorite 1.
+Pack long terme 019 - Priorite 1.
 
-- 20 nouveaux artistes majeurs ajoutes pour consolider le seuil de 300 artistes et avancer vers 350.
+- 20 nouveaux artistes majeurs ajoutes pour avancer vers 350 artistes.
 - 20 nouvelles chansons liees aux artistes et aux fiches existantes.
 - 10 nouveaux albums structurants.
-- Enrichissement pop/chanson francophone recente, chanson electro, spoken pop, pop piano, pop belge, revelations TV et francophonie suisse/quebecoise.
+- Enrichissement rap marseillais, pop urbaine, R&B francophone, afrolove, afro-pop, tubes de clubs, R&B 2000 et generation reseaux.
 - 80 nouveaux visuels attaches aux chansons.
 - 40 nouveaux visuels attaches aux albums.
 - 100 nouveaux visuels attaches aux nouveaux artistes.
@@ -43,4 +43,4 @@ Pack long terme 018 - Priorite 1.
 
 ## Prochaine tache
 
-Priorite 1 : pack 019, poursuivre vers 350 artistes avec un nouveau lot de scenes francophones, albums structurants et liens internes.
+Priorite 1 : pack 020, atteindre 350 artistes majeurs puis preparer la progression vers 400 artistes.
