@@ -2,28 +2,28 @@
 
 ## Etat de reprise - 2026-07-14
 
-Dernier commit de pack pousse sur `main` : `064b525 Add priority 1 artist pack 017`.
+Dernier commit de pack pousse sur `main` : `190d46d Add priority 1 artist pack 018`.
 
 Etat du depot au moment de l’arret :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : propre apres le push du pack 017.
+- Etat Git : propre apres le push du pack 018.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
 
-Compteurs actuels apres le pack 017 :
+Compteurs actuels apres le pack 018 :
 
-- Artistes : 300 / 500.
-- Chansons : 314 / 5000.
-- Albums : 158 / 1500.
-- Illustrations : 3419 / 1000.
-- Photos : 923.
-- Pochettes : 791.
-- Affiches : 518.
+- Artistes : 320 / 500.
+- Chansons : 334 / 5000.
+- Albums : 168 / 1500.
+- Illustrations : 3639 / 1000.
+- Photos : 983.
+- Pochettes : 841.
+- Affiches : 548.
 - Partitions : 0.
-- Anecdotes : 1256.
+- Anecdotes : 1336.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -31,16 +31,16 @@ Compteurs actuels apres le pack 017 :
 
 Dernier pack realise :
 
-- Pack long terme 017 - Priorite 1.
-- 31 nouveaux artistes majeurs ajoutes pour atteindre le seuil de 300 artistes.
-- 32 nouvelles chansons liees aux artistes et aux fiches existantes.
-- 13 nouveaux albums structurants.
-- Axes enrichis : rap francophone actuel, rap belge, drill, trap, afro-pop urbaine, rap feminin, cyber rap et diasporas francophones.
+- Pack long terme 018 - Priorite 1.
+- 20 nouveaux artistes majeurs ajoutes pour consolider le seuil de 300 artistes et avancer vers 350.
+- 20 nouvelles chansons liees aux artistes et aux fiches existantes.
+- 10 nouveaux albums structurants.
+- Axes enrichis : pop/chanson francophone recente, chanson electro, spoken pop, pop piano, pop belge, revelations TV et francophonie suisse/quebecoise.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 018**.
-- Objectif immediat : consolider le seuil de **300 artistes majeurs** avec albums, chansons et liens internes supplementaires, puis poursuivre vers **350 artistes majeurs**.
+- Reprendre par **Priorite 1 - pack 019**.
+- Objectif immediat : poursuivre vers **350 artistes majeurs** avec un nouveau lot de scenes francophones, albums structurants et liens internes.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.
