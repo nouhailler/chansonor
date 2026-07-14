@@ -7,6 +7,7 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 ### Corrige
 
 - Ajout du chargement de portraits reels Wikimedia/Wikidata sur les pages artistes, avec cache navigateur et fallback visuel si aucun portrait libre n’est trouve.
+- Extension des variantes de noms et portraits verifiés pour atteindre environ 293 portraits reels sur 340 artistes.
 - Conservation de `srcset` uniquement pour les images Unsplash afin d’eviter les URLs invalides sur les images Wikimedia.
 
 ### Ajoute - Pack long terme 019

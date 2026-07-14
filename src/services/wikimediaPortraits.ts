@@ -3,8 +3,58 @@ import type { Artist, VisualAsset } from '../types/content';
 
 type PortraitCache = Record<string, string | null>;
 
-const CACHE_KEY = 'chansonor-wikimedia-portraits-v1';
+const CACHE_KEY = 'chansonor-wikimedia-portraits-v2';
 const CHUNK_SIZE = 60;
+
+const portraitAliases: Record<string, string[]> = {
+  'claude-francois': ['Claude François'],
+  'mylene-farmer': ['Mylène Farmer'],
+  'veronique-sanson': ['Véronique Sanson'],
+  'etienne-daho': ['Étienne Daho'],
+  telephone: ['Téléphone'],
+  benabar: ['Bénabar'],
+  'julien-dore': ['Julien Doré'],
+  'maitre-gims': ['Maître Gims', 'Gims'],
+  angele: ['Angèle'],
+  gregoire: ['Grégoire'],
+  'gilbert-becaud': ['Gilbert Bécaud'],
+  'celine-dion': ['Céline Dion'],
+  frehel: ['Fréhel'],
+  'helene-segara': ['Hélène Ségara'],
+  alizee: ['Alizée'],
+  'felix-leclerc': ['Félix Leclerc'],
+  'gerard-lenorman': ['Gérard Lenorman'],
+  'rika-zarai': ['Rika Zaraï'],
+  'guy-beart': ['Guy Béart'],
+  'therapie-taxi': ['Thérapie Taxi'],
+  herve: ['Hervé'],
+  'aloise-sauvage': ['Aloïse Sauvage'],
+  ntm: ['Suprême NTM', 'Supreme NTM'],
+  'rita-mitsouko': ['Les Rita Mitsouko'],
+  'christine-and-the-queens': ['Rahim Redcar', 'Héloïse Letissier'],
+  'leo-ferre': ['Léo Ferré'],
+  'juliette-greco': ['Juliette Gréco'],
+  'bigflo-oli': ['Bigflo & Oli'],
+  'coeur-de-pirate': ['Coeur de pirate', 'Béatrice Martin'],
+  m: ['Matthieu Chedid', '-M-'],
+  'lous-and-the-yakuza': ['Lous and the Yakuza', 'Marie-Pierra Kakoma'],
+  'jokair': ["Jok'Air"],
+  'heuss-lenfoire': ["Heuss l'Enfoiré", 'Heuss l’Enfoiré'],
+  'imen-es': ['Imen ES']
+};
+
+const portraitOverrides: Record<string, string> = {
+  'jean-jacques-goldman': 'https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Jacques%20Goldman%20-%20may%202002.jpg',
+  ntm: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supreme%20NTM%20festivalbeauregard%20jbquentin2019.jpg',
+  'rita-mitsouko': 'https://commons.wikimedia.org/wiki/Special:FilePath/Les%20Rita%20Mitsouko%20f7682607.jpg',
+  'christine-and-the-queens': 'https://commons.wikimedia.org/wiki/Special:FilePath/Primavera19%20-48%20(48986309307)%20(cropped).png',
+  'leo-ferre': 'https://commons.wikimedia.org/wiki/Special:FilePath/LeoFerre-Rome-1972.png',
+  'juliette-greco': 'https://commons.wikimedia.org/wiki/Special:FilePath/Juliette%20Gr%C3%A9co%203.jpg',
+  'bigflo-oli': 'https://commons.wikimedia.org/wiki/Special:FilePath/P2N2019BigfloOli%2016%20(cropped).jpg',
+  'stephan-eicher': 'https://commons.wikimedia.org/wiki/Special:FilePath/2021%20Stephan%20Eicher%20(cropped).jpg',
+  'coeur-de-pirate': 'https://commons.wikimedia.org/wiki/Special:FilePath/Festival%20des%20Vieilles%20Charrues%202018%20-%20C%C5%93ur%20de%20pirate%20-%20006.jpg',
+  m: 'https://commons.wikimedia.org/wiki/Special:FilePath/Festival%20des%20Vieilles%20Charrues%202022%20-%20-M-%20-%20009.jpg'
+};
 
 const musicOccupationIds = [
   'wd:Q177220', // singer
@@ -72,11 +122,24 @@ async function fetchPortraitChunk(names: string[]) {
   return portraits;
 }
 
-async function fetchPortraits(names: string[]) {
+async function fetchPortraits(artists: Artist[]) {
+  const labelToArtistName = new Map<string, string>();
+  for (const artist of artists) {
+    for (const label of [artist.name, ...(portraitAliases[artist.id] ?? [])]) {
+      labelToArtistName.set(label, artist.name);
+    }
+  }
+  const names = [...labelToArtistName.keys()];
   const portraits: Record<string, string> = {};
   for (let index = 0; index < names.length; index += CHUNK_SIZE) {
     const chunk = names.slice(index, index + CHUNK_SIZE);
-    Object.assign(portraits, await fetchPortraitChunk(chunk));
+    const chunkPortraits = await fetchPortraitChunk(chunk);
+    for (const [label, url] of Object.entries(chunkPortraits)) {
+      const artistName = labelToArtistName.get(label);
+      if (artistName && !portraits[artistName]) {
+        portraits[artistName] = url;
+      }
+    }
   }
   return portraits;
 }
@@ -89,13 +152,14 @@ export function useWikimediaArtistPortraits(artists: Artist[]) {
   useEffect(() => {
     let cancelled = false;
     const currentCache = readCache();
-    const missing = names.filter((name) => !(name in currentCache));
+    const missingArtists = artists.filter((artist) => !(artist.name in currentCache) && !portraitOverrides[artist.id]);
+    const missing = missingArtists.map((artist) => artist.name);
     if (missing.length === 0) {
       setCache(currentCache);
       return;
     }
 
-    void fetchPortraits(missing).then((portraits) => {
+    void fetchPortraits(missingArtists).then((portraits) => {
       if (cancelled) return;
       const nextCache = { ...currentCache };
       for (const name of missing) {
@@ -115,7 +179,7 @@ export function useWikimediaArtistPortraits(artists: Artist[]) {
   return useMemo(() => {
     const portraits: Record<string, VisualAsset> = {};
     for (const artist of artists) {
-      const url = cache[artist.name];
+      const url = portraitOverrides[artist.id] ?? cache[artist.name];
       if (url) {
         portraits[artist.id] = {
           ...artist.hero,
