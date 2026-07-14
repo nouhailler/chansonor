@@ -2,28 +2,28 @@
 
 ## Etat de reprise - 2026-07-14
 
-Dernier commit pousse sur `main` : `40b0424 Add priority 1 artist pack 012`.
+Dernier commit de pack pousse sur `main` : `1be4acf Add priority 1 artist pack 013`.
 
 Etat du depot au moment de l’arret :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : propre apres le push du pack 012.
+- Etat Git : propre apres le push du pack 013.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
 
-Compteurs actuels apres le pack 012 :
+Compteurs actuels apres le pack 013 :
 
-- Artistes : 201 / 500.
-- Chansons : 215 / 5000.
-- Albums : 113 / 1500.
-- Illustrations : 2341 / 1000.
-- Photos : 617.
-- Pochettes : 542.
-- Affiches : 313.
+- Artistes : 221 / 500.
+- Chansons : 235 / 5000.
+- Albums : 123 / 1500.
+- Illustrations : 2521 / 1000.
+- Photos : 677.
+- Pochettes : 592.
+- Affiches : 351.
 - Partitions : 0.
-- Anecdotes : 844.
+- Anecdotes : 924.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -31,16 +31,16 @@ Compteurs actuels apres le pack 012 :
 
 Dernier pack realise :
 
-- Pack long terme 012 - Priorite 1.
-- 20 nouveaux artistes majeurs ajoutes pour depasser le seuil de 200 artistes.
+- Pack long terme 013 - Priorite 1.
+- 20 nouveaux artistes majeurs ajoutes pour continuer vers 250 artistes.
 - 20 nouvelles chansons liees aux artistes et aux fiches existantes.
 - 10 nouveaux albums structurants.
-- Axes enrichis : Quebec, rock alternatif, chanson festive, rock breton, nouvelle scene piano, pop internationale et indie contemporaine.
+- Axes enrichis : music-hall, cabaret, chanson parisienne, variete 70-80, jazz chanson, chanson jeunesse, folk engage et interpretes-acteurs.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 013**.
-- Objectif immediat : consolider les fiches historiques et continuer vers **250 artistes majeurs**.
+- Reprendre par **Priorite 1 - pack 014**.
+- Objectif immediat : poursuivre la consolidation historique et avancer vers **250 artistes majeurs**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.
