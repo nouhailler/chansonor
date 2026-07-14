@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 014
+
+- Ajout de 21 artistes majeurs : Alan Stivell, Dan Ar Braz, Gilles Servat, Tri Yann, Soldat Louis, Massilia Sound System, Moussu T e lei Jovents, Fabulous Trobadors, Les Negresses Vertes, Lo Jo, Tete, Ridan, Cali, Damien Saez, Eiffel, Luke, Les Wampas, Daran, Blankass, Astonvilla et Zoufris Maracas.
+- Ajout de 21 chansons reperes autour de la Bretagne celtique, de Marseille occitane, de la world-chanson, du rock francais 90-2000 et de la chanson festive engagee.
+- Ajout de 10 albums structurants.
+- Passage a 242 fiches artistes.
+- Consolidation des axes regionaux et scenes alternatives avant le seuil de 250 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 013
 
 - Ajout de 20 artistes majeurs : Lucienne Delyle, Suzy Solidor, Jacqueline Francois, Patachou, Juliette, Pierre Vassiliu, Gerard Lenorman, Michel Jonasz, Nicole Croisille, Nicole Rieu, Rika Zarai, Marie-Paule Belle, Chantal Goya, Carlos, Annie Cordy, Line Renaud, Philippe Clay, Guy Beart, Graeme Allwright et Henri Tachan.

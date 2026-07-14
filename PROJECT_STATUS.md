@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 221 / 500
+Artistes : 242 / 500
 
-Chansons : 235 / 5000
+Chansons : 256 / 5000
 
-Albums : 123 / 1500
+Albums : 133 / 1500
 
-Illustrations : 2521 / 1000
+Illustrations : 2750 / 1000
 
-Photos : 677
+Photos : 740
 
-Pochettes : 592
+Pochettes : 642
 
-Affiches : 351
+Affiches : 391
 
 Partitions : 0
 
-Anecdotes : 924
+Anecdotes : 1008
 
 Collections : 5
 
@@ -30,17 +30,17 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 013 - Priorite 1.
+Pack long terme 014 - Priorite 1.
 
-- 20 nouveaux artistes majeurs ajoutes pour continuer vers 250 artistes.
-- 20 nouvelles chansons liees aux artistes et aux fiches existantes.
+- 21 nouveaux artistes majeurs ajoutes pour approcher le seuil de 250 artistes.
+- 21 nouvelles chansons liees aux artistes et aux fiches existantes.
 - 10 nouveaux albums structurants.
-- Enrichissement music-hall, cabaret, chanson parisienne, variete 70-80, jazz chanson, chanson jeunesse, folk engage et interpretes-acteurs.
-- 80 nouveaux visuels attaches aux chansons.
+- Enrichissement Bretagne celtique, Marseille occitane, world-chanson, rock francais 90-2000, chanson folk pop et scenes festives engagees.
+- 84 nouveaux visuels attaches aux chansons.
 - 40 nouveaux visuels attaches aux albums.
-- 100 nouveaux visuels attaches aux nouveaux artistes.
-- 80 nouvelles anecdotes ajoutees aux fiches.
+- 105 nouveaux visuels attaches aux nouveaux artistes.
+- 84 nouvelles anecdotes ajoutees aux fiches.
 
 ## Prochaine tache
 
-Priorite 1 : pack 014, poursuivre la consolidation historique et ajouter un nouveau lot d’artistes francophones pour avancer vers 250 artistes majeurs.
+Priorite 1 : pack 015, atteindre puis depasser 250 artistes majeurs avec un lot court et consolider les liens regionaux ajoutes.
