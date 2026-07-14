@@ -2,7 +2,16 @@
 
 Toutes les evolutions notables de Chansonor sont documentees ici.
 
-## [0.1.0] - 2026-07-13
+## [0.1.0] - 2026-07-14
+
+### Ajoute - Pack long terme 012
+
+- Ajout de 20 artistes majeurs : Felix Leclerc, Gilles Vigneault, Robert Charlebois, Diane Dufresne, CharlElie Couture, Mano Negra, Les Tetes Raides, Les Ogres de Barback, La Rue Ketanou, Matmatah, Dionysos, Emily Loizeau, Jeanne Cherhal, Keren Ann, Yael Naim, Hindi Zahra, Imany, Indila, Feu! Chatterton et La Femme.
+- Ajout de 20 chansons reperes, du Quebec patrimonial a l’indie pop contemporaine.
+- Ajout de 10 albums structurants.
+- Passage a 201 fiches artistes et depassement du seuil de 200 artistes majeurs.
+- Correction de l’identifiant de la fiche Assassin.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
 
 ### Ajoute - Pack long terme 011
 

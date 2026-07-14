@@ -1,29 +1,29 @@
 # Contexte Chansonor
 
-## Etat de reprise - 2026-07-13 soir
+## Etat de reprise - 2026-07-14
 
-Dernier commit pousse sur `main` : `69c5e56 Add priority 1 artist pack 011`.
+Dernier commit pousse sur `main` : a mettre a jour apres validation du pack 012.
 
 Etat du depot au moment de l’arret :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : propre apres le push du pack 011.
-- Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`.
+- Etat Git : pack 012 valide localement, pret pour commit.
+- Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
 
-Compteurs actuels apres le pack 011 :
+Compteurs actuels apres le pack 012 :
 
-- Artistes : 180 / 500.
-- Chansons : 195 / 5000.
-- Albums : 103 / 1500.
-- Illustrations : 2121 / 1000.
-- Photos : 557.
-- Pochettes : 492.
-- Affiches : 275.
+- Artistes : 201 / 500.
+- Chansons : 215 / 5000.
+- Albums : 113 / 1500.
+- Illustrations : 2341 / 1000.
+- Photos : 617.
+- Pochettes : 542.
+- Affiches : 313.
 - Partitions : 0.
-- Anecdotes : 764.
+- Anecdotes : 844.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -31,16 +31,16 @@ Compteurs actuels apres le pack 011 :
 
 Dernier pack realise :
 
-- Pack long terme 011 - Priorite 1.
-- 20 nouveaux artistes majeurs ajoutes pour atteindre 180 artistes.
-- 23 nouvelles chansons liees aux artistes et aux fiches existantes.
-- 13 nouveaux albums structurants.
-- Axes enrichis : rive gauche, chanson de film, pop Gainsbourg, comedie musicale, nouvelle scene, rap francais, electro-pop et hip-hop pionnier.
+- Pack long terme 012 - Priorite 1.
+- 20 nouveaux artistes majeurs ajoutes pour depasser le seuil de 200 artistes.
+- 20 nouvelles chansons liees aux artistes et aux fiches existantes.
+- 10 nouveaux albums structurants.
+- Axes enrichis : Quebec, rock alternatif, chanson festive, rock breton, nouvelle scene piano, pop internationale et indie contemporaine.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 012**.
-- Objectif immediat : atteindre au moins **200 artistes majeurs**.
+- Reprendre par **Priorite 1 - pack 013**.
+- Objectif immediat : consolider les fiches historiques et continuer vers **250 artistes majeurs**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.
