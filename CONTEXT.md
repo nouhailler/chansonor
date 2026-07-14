@@ -2,28 +2,28 @@
 
 ## Etat de reprise - 2026-07-14
 
-Dernier commit de pack pousse sur `main` : `2381705 Add priority 1 artist pack 014`.
+Dernier commit de pack pousse sur `main` : `a4d7fc5 Add priority 1 artist pack 015`.
 
 Etat du depot au moment de l’arret :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : propre apres le push du pack 014.
+- Etat Git : propre apres le push du pack 015.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
 
-Compteurs actuels apres le pack 014 :
+Compteurs actuels apres le pack 015 :
 
-- Artistes : 242 / 500.
-- Chansons : 256 / 5000.
-- Albums : 133 / 1500.
-- Illustrations : 2750 / 1000.
-- Photos : 740.
-- Pochettes : 642.
-- Affiches : 391.
+- Artistes : 252 / 500.
+- Chansons : 266 / 5000.
+- Albums : 138 / 1500.
+- Illustrations : 2860 / 1000.
+- Photos : 770.
+- Pochettes : 667.
+- Affiches : 411.
 - Partitions : 0.
-- Anecdotes : 1008.
+- Anecdotes : 1048.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -31,16 +31,16 @@ Compteurs actuels apres le pack 014 :
 
 Dernier pack realise :
 
-- Pack long terme 014 - Priorite 1.
-- 21 nouveaux artistes majeurs ajoutes pour approcher le seuil de 250 artistes.
-- 21 nouvelles chansons liees aux artistes et aux fiches existantes.
-- 10 nouveaux albums structurants.
-- Axes enrichis : Bretagne celtique, Marseille occitane, world-chanson, rock francais 90-2000, chanson folk pop et scenes festives engagees.
+- Pack long terme 015 - Priorite 1.
+- 10 nouveaux artistes majeurs ajoutes pour depasser le seuil de 250 artistes.
+- 10 nouvelles chansons liees aux artistes et aux fiches existantes.
+- 5 nouveaux albums structurants.
+- Axes enrichis : nouvelle scene piano, chanson de film contemporaine, pop d’auteur, folk blues, folk soul et chanson engagee actuelle.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 015**.
-- Objectif immediat : atteindre puis depasser **250 artistes majeurs** avec un lot court et consolider les liens regionaux ajoutes.
+- Reprendre par **Priorite 1 - pack 016**.
+- Objectif immediat : poursuivre vers **300 artistes majeurs** en consolidant les nouvelles scenes, les liens cinema et les parcours francophones.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.
