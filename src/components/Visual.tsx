@@ -41,6 +41,9 @@ export function Visual({ asset, ratio = '4 / 3', rounded = 18, className }: Visu
   const [failed, setFailed] = useState(false);
   const src = failed || !asset.url ? placeholderDataUri(asset) : asset.url;
   const background = useMemo(() => placeholderDataUri(asset), [asset]);
+  const srcSet = asset.url?.includes('images.unsplash.com') && !failed
+    ? `${asset.url}&w=640 640w, ${asset.url}&w=1100 1100w, ${asset.url}&w=1600 1600w`
+    : undefined;
 
   return (
     <Box
@@ -59,7 +62,7 @@ export function Visual({ asset, ratio = '4 / 3', rounded = 18, className }: Visu
       <Box
         component="img"
         src={src}
-        srcSet={asset.url && !failed ? `${asset.url}&w=640 640w, ${asset.url}&w=1100 1100w, ${asset.url}&w=1600 1600w` : undefined}
+        srcSet={srcSet}
         sizes="(max-width: 700px) 92vw, 33vw"
         alt={asset.alt}
         loading="lazy"

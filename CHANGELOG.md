@@ -4,6 +4,11 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Corrige
+
+- Ajout du chargement de portraits reels Wikimedia/Wikidata sur les pages artistes, avec cache navigateur et fallback visuel si aucun portrait libre n’est trouve.
+- Conservation de `srcset` uniquement pour les images Unsplash afin d’eviter les URLs invalides sur les images Wikimedia.
+
 ### Ajoute - Pack long terme 019
 
 - Ajout de 20 artistes majeurs : Jul, Naps, Heuss l'Enfoiré, Dadju, Tayc, Vegedream, KeBlack, Franglish, Lartiste, Marwa Loud, Eva, Wejdene, Imen Es, Lynda, Shy'm, Tal, Kenza Farah, Nej', Zaho et Singuila.

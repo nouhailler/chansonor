@@ -7,15 +7,18 @@ import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
 import { artists } from '../data/library';
 import { favoritesStore } from '../services/favorites';
+import { useWikimediaArtistPortraits } from '../services/wikimediaPortraits';
 
 export function ArtistsPage() {
+  const portraits = useWikimediaArtistPortraits(artists);
+
   return (
     <Container maxWidth="xl" sx={{ py: { xs: 4, md: 6 } }}>
       <SectionHeader eyebrow="Artistes" title="Portraits, scenes, albums et collaborations" />
       <Grid container spacing={3}>
         {artists.map((artist) => (
           <Grid size={{ xs: 12, md: 4 }} key={artist.id}>
-            <MediaCard title={artist.name} subtitle={`${artist.years} · ${artist.region}`} image={artist.hero} badge={artist.styles[0]} href={`/artists/${artist.id}`} wide />
+            <MediaCard title={artist.name} subtitle={`${artist.years} · ${artist.region}`} image={portraits[artist.id] ?? artist.hero} badge={artist.styles[0]} href={`/artists/${artist.id}`} wide />
           </Grid>
         ))}
       </Grid>
@@ -25,23 +28,25 @@ export function ArtistsPage() {
 
 export function ArtistDetailPage({ id }: { id?: string }) {
   const artist = artists.find((item) => item.id === id) ?? artists[0];
+  const portraits = useWikimediaArtistPortraits([artist]);
+  const hero = portraits[artist.id] ?? artist.hero;
   const favorite = () => {
     void favoritesStore.toggle({
       id: `artist-${artist.id}`,
       type: 'artist',
       title: artist.name,
-      image: artist.hero.url,
-      color: artist.hero.color
+      image: hero.url,
+      color: hero.color
     });
   };
 
   return (
     <Box>
-      <Box sx={{ background: `linear-gradient(135deg, ${artist.hero.color}, #1e172d)`, color: 'white', pt: 5, pb: { xs: 5, md: 8 } }}>
+      <Box sx={{ background: `linear-gradient(135deg, ${hero.color}, #1e172d)`, color: 'white', pt: 5, pb: { xs: 5, md: 8 } }}>
         <Container maxWidth="xl">
           <Grid container spacing={4} alignItems="center">
             <Grid size={{ xs: 12, md: 5 }}>
-              <Visual asset={artist.hero} ratio="4 / 5" rounded={26} />
+              <Visual asset={hero} ratio="4 / 5" rounded={26} />
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <Stack direction="row" gap={1} flexWrap="wrap" sx={{ mb: 2 }}>
