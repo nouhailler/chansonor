@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 015
+
+- Ajout de 10 artistes majeurs : Vincent Delerm, Alex Beaupain, Da Silva, Albin de la Simone, Bertrand Belin, La Grande Sophie, Moriarty, Mélissa Laveaux, Rose et HK et les Saltimbanks.
+- Ajout de 10 chansons reperes autour de la nouvelle scene piano, de la chanson de film contemporaine, de la pop d’auteur, du folk blues, du folk soul et de la chanson engagee actuelle.
+- Ajout de 5 albums structurants.
+- Passage a 252 fiches artistes et depassement du seuil de 250 artistes majeurs.
+- Consolidation des liens nouvelle scene, cinema, folk et engagement.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 014
 
 - Ajout de 21 artistes majeurs : Alan Stivell, Dan Ar Braz, Gilles Servat, Tri Yann, Soldat Louis, Massilia Sound System, Moussu T e lei Jovents, Fabulous Trobadors, Les Negresses Vertes, Lo Jo, Tete, Ridan, Cali, Damien Saez, Eiffel, Luke, Les Wampas, Daran, Blankass, Astonvilla et Zoufris Maracas.
