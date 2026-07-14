@@ -23,6 +23,8 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 - [x] Atteindre 200 artistes majeurs.
 - [x] Atteindre 250 artistes majeurs.
 - [x] Atteindre 300 artistes majeurs.
+- [x] Lancer le pack long terme 018 avec 320 artistes au total.
+- [ ] Atteindre 350 artistes majeurs.
 - [ ] Atteindre 500 artistes majeurs.
 - [ ] Enrichir chaque fiche artiste avec chronologie, discographie, concerts, citations, anecdotes et galerie complete.
 
@@ -46,6 +48,7 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 - [x] Lancer le pack long terme 015 avec 266 chansons au total.
 - [x] Lancer le pack long terme 016 avec 286 chansons au total.
 - [x] Lancer le pack long terme 017 avec 314 chansons au total.
+- [x] Lancer le pack long terme 018 avec 334 chansons au total.
 - [x] Atteindre 100 chansons majeures.
 - [ ] Atteindre 500 chansons majeures.
 - [ ] Atteindre 1000 chansons majeures.
@@ -73,6 +76,7 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 - [x] Lancer le pack long terme 015 avec 138 albums au total.
 - [x] Lancer le pack long terme 016 avec 148 albums au total.
 - [x] Lancer le pack long terme 017 avec 158 albums au total.
+- [x] Lancer le pack long terme 018 avec 168 albums au total.
 - [ ] Atteindre 250 albums.
 - [ ] Atteindre 500 albums.
 - [ ] Atteindre 1000 albums.

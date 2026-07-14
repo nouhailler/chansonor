@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 018
+
+- Ajout de 20 artistes majeurs : Zaho de Sagazan, Clara Ysé, Pierre de Maere, Yoa, Styleto, Adé, Mentissa, Ben Mazué, Gaël Faye, FAUVE, Hoshi, Camélia Jordana, Nach, Clio, Auren, La Zarra, Nuit Incolore, Joseph Kamel, Santa et Pierre Garnier.
+- Ajout de 20 chansons reperes autour de la pop/chanson francophone recente, de la chanson electro, du spoken pop, de la pop piano, des revelations TV, de la Belgique, de la Suisse et du Quebec francophones.
+- Ajout de 10 albums structurants.
+- Passage a 320 fiches artistes et consolidation du seuil de 300 artistes majeurs.
+- Preparation du pack 019 pour poursuivre vers 350 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 017
 
 - Ajout de 31 artistes majeurs : Luidji, Josman, Nekfeu, PNL, SCH, Ninho, Damso, Hamza, PLK, Vald, Soolking, Niska, Lacrim, Leto, Zola, Tiakola, Gazo, SDM, Dinos, Disiz, Chilla, Lous and The Yakuza, Kalika, Meryl, Le Juiice, Jok'air, S.Pri Noir, Shay, Freeze Corleone, Laylow et Maes.
