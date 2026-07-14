@@ -6,6 +6,14 @@
 
 L’application met l’image au centre de l’experience : portraits, pochettes, affiches, archives, cartes, objets, scenes et placeholders illustres sont prevus pour eviter tout ecran vide.
 
+## Etat actuel
+
+- Dernier pack de contenu traite : Pack long terme 019.
+- Prochaine session de contenu : Pack long terme 020, avec objectif d’atteindre 350 artistes majeurs.
+- Contenus indexes : 340 artistes, 354 chansons, 178 albums.
+- Portraits reels : environ 293 portraits Wikimedia/Wikidata trouves sur 340 artistes, avec fallback visuel pour les fiches restantes.
+- Deploiement Netlify : les routes React profondes sont prises en charge via `public/_redirects`.
+
 ## Captures d’ecran
 
 ### Accueil immersif
@@ -37,6 +45,7 @@ L’application met l’image au centre de l’experience : portraits, pochettes
 - Mode clair / sombre.
 - PWA avec manifest, icone d’application et service worker.
 - Lazy loading des images, `srcSet` responsive et fallback SVG automatique.
+- Portraits artistes reels charges depuis Wikimedia/Wikidata avec cache navigateur et fallback local.
 
 ## Stack
 
@@ -109,12 +118,13 @@ src/
   components/   Composants UI reutilisables
   data/         Donnees editoriales et references media
   pages/        Ecrans routes
-  services/     Persistance locale
+  services/     Persistance locale et portraits Wikimedia
   styles/       Styles globaux
   types/        Types TypeScript du domaine
 public/
   icons/        Icone PWA
   sw.js         Service worker
+  _redirects    Fallback Netlify vers index.html pour les routes React
 docs/
   screenshots/ Captures README
 ```

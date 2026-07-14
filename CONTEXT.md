@@ -4,14 +4,23 @@
 
 Dernier commit de pack pousse sur `main` : `64c7494 Add priority 1 artist pack 019`.
 
+Derniers commits techniques pousses apres le pack 019 :
+
+- `1f23e80 Add Netlify SPA redirect`.
+- `42ccc00 Load real artist portraits from Wikimedia`.
+- `62f943e Improve Wikimedia artist portrait coverage`.
+
 Etat du depot au moment de l’arret :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : propre apres le push du pack 019.
+- Etat Git : propre apres le push des corrections Netlify, portraits Wikimedia et documentation de reprise.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
+- Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
+- Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
+- Couverture portraits reels estimee : environ 293 portraits trouves sur 340 artistes.
 
 Compteurs actuels apres le pack 019 :
 
