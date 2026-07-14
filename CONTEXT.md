@@ -2,28 +2,28 @@
 
 ## Etat de reprise - 2026-07-14
 
-Dernier commit de pack pousse sur `main` : `190d46d Add priority 1 artist pack 018`.
+Dernier commit de pack pousse sur `main` : `64c7494 Add priority 1 artist pack 019`.
 
 Etat du depot au moment de l’arret :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : propre apres le push du pack 018.
+- Etat Git : propre apres le push du pack 019.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
 
-Compteurs actuels apres le pack 018 :
+Compteurs actuels apres le pack 019 :
 
-- Artistes : 320 / 500.
-- Chansons : 334 / 5000.
-- Albums : 168 / 1500.
-- Illustrations : 3639 / 1000.
-- Photos : 983.
-- Pochettes : 841.
-- Affiches : 548.
+- Artistes : 340 / 500.
+- Chansons : 354 / 5000.
+- Albums : 178 / 1500.
+- Illustrations : 3859 / 1000.
+- Photos : 1043.
+- Pochettes : 891.
+- Affiches : 578.
 - Partitions : 0.
-- Anecdotes : 1336.
+- Anecdotes : 1416.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -31,16 +31,16 @@ Compteurs actuels apres le pack 018 :
 
 Dernier pack realise :
 
-- Pack long terme 018 - Priorite 1.
-- 20 nouveaux artistes majeurs ajoutes pour consolider le seuil de 300 artistes et avancer vers 350.
+- Pack long terme 019 - Priorite 1.
+- 20 nouveaux artistes majeurs ajoutes pour avancer vers 350 artistes.
 - 20 nouvelles chansons liees aux artistes et aux fiches existantes.
 - 10 nouveaux albums structurants.
-- Axes enrichis : pop/chanson francophone recente, chanson electro, spoken pop, pop piano, pop belge, revelations TV et francophonie suisse/quebecoise.
+- Axes enrichis : rap marseillais, pop urbaine, R&B francophone, afrolove, afro-pop, tubes de clubs, R&B 2000 et generation reseaux.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 019**.
-- Objectif immediat : poursuivre vers **350 artistes majeurs** avec un nouveau lot de scenes francophones, albums structurants et liens internes.
+- Reprendre par **Priorite 1 - pack 020**.
+- Objectif immediat : atteindre **350 artistes majeurs**, puis preparer la progression vers **400 artistes**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.
