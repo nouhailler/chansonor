@@ -4,7 +4,7 @@
 
 Dernier pack realise localement : Pack long terme 027 - Priorite 1.
 
-Dernier commit de pack pousse sur `main` : `64c7494 Add priority 1 artist pack 019`.
+Dernier commit de pack pousse sur `main` : `5c09fab Add priority 1 artist pack 027`.
 
 Derniers commits techniques pousses apres le pack 019 :
 
@@ -12,11 +12,11 @@ Derniers commits techniques pousses apres le pack 019 :
 - `42ccc00 Load real artist portraits from Wikimedia`.
 - `62f943e Improve Wikimedia artist portrait coverage`.
 
-Etat du depot au moment de la reprise :
+Etat du depot au moment de l'arret du soir :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : modifications locales du pack 027 a valider.
+- Etat Git : packs 020 a 027 commites localement, push demande sur `origin/main`.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
