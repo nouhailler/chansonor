@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 022
+
+- Ajout de 20 artistes majeurs : Oldelaf, Barcella, Les Fatals Picards, Debout sur le Zinc, Java, Les Hurlements d'Léo, La Caravane Passe, Babylon Circus, Sergent Garcia, Danakil, Dub Inc, Sinsemilia, Broussaï, Pierpoljak, As de Trêfle, Les Fils de Teuhpu, GiedRé, Govrache, Gauvain Sers et Les Tit' Nassels.
+- Ajout de 20 chansons reperes autour de la chanson alternative, du reggae francophone, du ska, de la fanfare, de la chanson humoristique, du slam chanson, des scenes independantes et des festivals.
+- Ajout de 10 albums structurants.
+- Passage a 390 fiches artistes et preparation du pack 023 pour atteindre 400 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 021
 
 - Ajout de 20 artistes majeurs : Kyo, Superbus, Boulevard des Airs, Joyce Jonathan, Cécile Corbel, Les Frangines, Arcadian, Cats on Trees, Hyphen Hyphen, Lilly Wood and the Prick, AaRON, Cocoon, Revolver, BB Brunes, Shaka Ponk, Skip the Use, Pony Pony Run Run, Naive New Beaters, Housse de Racket et Brigitte.
