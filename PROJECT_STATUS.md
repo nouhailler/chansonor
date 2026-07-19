@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 410 / 500
+Artistes : 420 / 500
 
-Chansons : 436 / 5000
+Chansons : 446 / 5000
 
-Albums : 230 / 1500
+Albums : 240 / 1500
 
-Illustrations : 4745 / 1000
+Illustrations : 4875 / 1000
 
-Photos : 1125
+Photos : 1135
 
-Pochettes : 1055
+Pochettes : 1075
 
-Affiches : 739
+Affiches : 759
 
 Partitions : 0
 
-Anecdotes : 1720
+Anecdotes : 1760
 
 Collections : 5
 
@@ -30,12 +30,12 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 024 - Priorite 1.
+Pack long terme 025 - Priorite 1.
 
-- 10 nouveaux artistes majeurs ajoutes pour consolider le seuil de 400 artistes.
+- 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Enrichissement rap francais 2000-2010, rap technique, rap melodique, rap politique, trap française, punchlines, mixtapes et fanbases internet.
+- Enrichissement R&B pop feminin, zouk love, soul urbaine, Antilles, Guyane, Martinique, Guadeloupe et clips R&B 2000.
 - 40 nouveaux visuels attaches aux chansons.
 - 40 nouveaux visuels attaches aux albums.
 - 50 nouveaux visuels attaches aux nouveaux artistes.
@@ -43,4 +43,4 @@ Pack long terme 024 - Priorite 1.
 
 ## Prochaine tache
 
-Priorite 1 : pack 025, poursuivre vers 500 artistes majeurs.
+Priorite 1 : pack 026, poursuivre vers 500 artistes majeurs.

@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 025
+
+- Ajout de 10 artistes majeurs : Ronisia, Lyna Mahyem, Nesly, Kayna Samet, Slaï, Fanny J, Perle Lama, Princess Lover, Nâdiya et Leslie.
+- Ajout de 10 chansons reperes autour du R&B pop feminin, du zouk love, de la soul urbaine, des Antilles, de la Guyane, de la Martinique, de la Guadeloupe et des clips R&B 2000.
+- Ajout de 10 albums structurants.
+- Passage a 420 fiches artistes et poursuite vers 500 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 024
 
 - Ajout de 10 artistes majeurs : Booba, Sinik, La Fouine, Médine, Youssoupha, Sefyu, Kaaris, Seth Gueko, Alkpote et Mister You.
