@@ -2,7 +2,7 @@
 
 ## Etat de reprise - 2026-07-19
 
-Dernier pack realise localement : Pack long terme 020 - Priorite 1.
+Dernier pack realise localement : Pack long terme 021 - Priorite 1.
 
 Dernier commit de pack pousse sur `main` : `64c7494 Add priority 1 artist pack 019`.
 
@@ -16,25 +16,25 @@ Etat du depot au moment de la reprise :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : modifications locales du pack 020 a valider.
+- Etat Git : modifications locales du pack 021 a valider.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
 - Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
 - Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
-- Couverture portraits reels estimee : environ 293 portraits trouves sur 350 artistes.
+- Couverture portraits reels estimee : environ 293 portraits trouves sur 370 artistes.
 
-Compteurs actuels apres le pack 020 :
+Compteurs actuels apres le pack 021 :
 
-- Artistes : 350 / 500.
-- Chansons : 376 / 5000.
-- Albums : 190 / 1500.
-- Illustrations : 4045 / 1000.
-- Photos : 1065.
-- Pochettes : 935.
-- Affiches : 619.
+- Artistes : 370 / 500.
+- Chansons : 396 / 5000.
+- Albums : 200 / 1500.
+- Illustrations : 4265 / 1000.
+- Photos : 1085.
+- Pochettes : 975.
+- Affiches : 659.
 - Partitions : 0.
-- Anecdotes : 1480.
+- Anecdotes : 1560.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -42,16 +42,16 @@ Compteurs actuels apres le pack 020 :
 
 Dernier pack realise :
 
-- Pack long terme 020 - Priorite 1.
-- 10 nouveaux artistes majeurs ajoutes pour atteindre 350 artistes.
-- 22 nouvelles chansons liees aux artistes et aux fiches existantes.
-- 12 nouveaux albums structurants.
-- Axes enrichis : pop flamboyante, variete acoustique, grandes voix 2000, pop internationale, reprises familiales, chanson regionale et trajectoires post-television.
+- Pack long terme 021 - Priorite 1.
+- 20 nouveaux artistes majeurs ajoutes pour avancer vers 400 artistes.
+- 20 nouvelles chansons liees aux nouveaux artistes.
+- 10 nouveaux albums structurants.
+- Axes enrichis : pop rock 2000, indie pop, folk anglophone française, electro rock, chanson festive, scenes festival et trajectoires web/television.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 021**.
-- Objectif immediat : consolider **350 artistes majeurs**, puis preparer la progression vers **400 artistes**.
+- Reprendre par **Priorite 1 - pack 022**.
+- Objectif immediat : poursuivre vers **400 artistes majeurs**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.

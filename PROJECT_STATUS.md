@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 350 / 500
+Artistes : 370 / 500
 
-Chansons : 376 / 5000
+Chansons : 396 / 5000
 
-Albums : 190 / 1500
+Albums : 200 / 1500
 
-Illustrations : 4045 / 1000
+Illustrations : 4265 / 1000
 
-Photos : 1065
+Photos : 1085
 
-Pochettes : 935
+Pochettes : 975
 
-Affiches : 619
+Affiches : 659
 
 Partitions : 0
 
-Anecdotes : 1480
+Anecdotes : 1560
 
 Collections : 5
 
@@ -30,17 +30,17 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 020 - Priorite 1.
+Pack long terme 021 - Priorite 1.
 
-- 10 nouveaux artistes majeurs ajoutes pour atteindre 350 artistes.
-- 22 nouvelles chansons liees aux nouveaux artistes et aux fiches existantes.
-- 12 nouveaux albums structurants.
-- Enrichissement pop flamboyante, variete acoustique, grandes voix 2000, pop internationale, reprises familiales, chanson regionale et trajectoires post-television.
-- 88 nouveaux visuels attaches aux chansons.
-- 48 nouveaux visuels attaches aux albums.
-- 50 nouveaux visuels attaches aux nouveaux artistes.
-- 64 nouvelles anecdotes ajoutees aux fiches.
+- 20 nouveaux artistes majeurs ajoutes pour avancer vers 400 artistes.
+- 20 nouvelles chansons liees aux nouveaux artistes.
+- 10 nouveaux albums structurants.
+- Enrichissement pop rock 2000, indie pop, folk anglophone française, electro rock, chanson festive, scenes festival et trajectoires web/television.
+- 80 nouveaux visuels attaches aux chansons.
+- 40 nouveaux visuels attaches aux albums.
+- 100 nouveaux visuels attaches aux nouveaux artistes.
+- 80 nouvelles anecdotes ajoutees aux fiches.
 
 ## Prochaine tache
 
-Priorite 1 : pack 021, preparer la progression vers 400 artistes majeurs.
+Priorite 1 : pack 022, poursuivre la progression vers 400 artistes majeurs.

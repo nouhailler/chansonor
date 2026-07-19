@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 021
+
+- Ajout de 20 artistes majeurs : Kyo, Superbus, Boulevard des Airs, Joyce Jonathan, Cécile Corbel, Les Frangines, Arcadian, Cats on Trees, Hyphen Hyphen, Lilly Wood and the Prick, AaRON, Cocoon, Revolver, BB Brunes, Shaka Ponk, Skip the Use, Pony Pony Run Run, Naive New Beaters, Housse de Racket et Brigitte.
+- Ajout de 20 chansons reperes autour du pop rock 2000, de l’indie pop, du folk anglophone français, de l’electro rock, de la chanson festive, des scenes festival et des trajectoires web/television.
+- Ajout de 10 albums structurants.
+- Passage a 370 fiches artistes et preparation de la progression vers 400 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 020
 
 - Ajout de 10 artistes majeurs : Mika, Christophe Maé, Anggun, Chimène Badi, Grégory Lemarchal, Jérémy Frerot, Trois Cafés Gourmands, Kids United, Claudio Capéo et Fréro Delavega.
