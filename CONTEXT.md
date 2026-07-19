@@ -2,7 +2,7 @@
 
 ## Etat de reprise - 2026-07-19
 
-Dernier pack realise localement : Pack long terme 025 - Priorite 1.
+Dernier pack realise localement : Pack long terme 026 - Priorite 1.
 
 Dernier commit de pack pousse sur `main` : `64c7494 Add priority 1 artist pack 019`.
 
@@ -16,25 +16,25 @@ Etat du depot au moment de la reprise :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : modifications locales du pack 025 a valider.
+- Etat Git : modifications locales du pack 026 a valider.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
 - Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
 - Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
-- Couverture portraits reels estimee : environ 293 portraits trouves sur 420 artistes.
+- Couverture portraits reels estimee : environ 293 portraits trouves sur 430 artistes.
 
-Compteurs actuels apres le pack 025 :
+Compteurs actuels apres le pack 026 :
 
-- Artistes : 420 / 500.
-- Chansons : 446 / 5000.
-- Albums : 240 / 1500.
-- Illustrations : 4875 / 1000.
-- Photos : 1135.
-- Pochettes : 1075.
-- Affiches : 759.
+- Artistes : 430 / 500.
+- Chansons : 456 / 5000.
+- Albums : 250 / 1500.
+- Illustrations : 5005 / 1000.
+- Photos : 1145.
+- Pochettes : 1095.
+- Affiches : 779.
 - Partitions : 0.
-- Anecdotes : 1760.
+- Anecdotes : 1800.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -42,15 +42,15 @@ Compteurs actuels apres le pack 025 :
 
 Dernier pack realise :
 
-- Pack long terme 025 - Priorite 1.
+- Pack long terme 026 - Priorite 1.
 - 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Axes enrichis : R&B pop feminin, zouk love, soul urbaine, Antilles, Guyane, Martinique, Guadeloupe et clips R&B 2000.
+- Axes enrichis : French touch, electro française, house filtrée, downtempo, synthwave, pop electronique exportee et clips electro cinematographiques.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 026**.
+- Reprendre par **Priorite 1 - pack 027**.
 - Objectif immediat : poursuivre vers **500 artistes majeurs**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.

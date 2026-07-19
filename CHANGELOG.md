@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 026
+
+- Ajout de 10 artistes majeurs : Daft Punk, Justice, Air, Phoenix, Cassius, Modjo, Étienne de Crécy, Kavinsky, M83 et The Blaze.
+- Ajout de 10 chansons reperes autour de la French touch, de l’electro française, de la house filtrée, du downtempo, de la synthwave, de la pop electronique exportee et des clips electro cinematographiques.
+- Ajout de 10 albums structurants.
+- Passage a 430 fiches artistes et validation du seuil de 250 albums.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 025
 
 - Ajout de 10 artistes majeurs : Ronisia, Lyna Mahyem, Nesly, Kayna Samet, Slaï, Fanny J, Perle Lama, Princess Lover, Nâdiya et Leslie.
