@@ -2,7 +2,7 @@
 
 ## Etat de reprise - 2026-07-19
 
-Dernier pack realise localement : Pack long terme 023 - Priorite 1.
+Dernier pack realise localement : Pack long terme 024 - Priorite 1.
 
 Dernier commit de pack pousse sur `main` : `64c7494 Add priority 1 artist pack 019`.
 
@@ -16,25 +16,25 @@ Etat du depot au moment de la reprise :
 
 - Branche : `main`.
 - Depot distant : `origin/main`.
-- Etat Git : modifications locales du pack 023 a valider.
+- Etat Git : modifications locales du pack 024 a valider.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
 - Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
 - Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
-- Couverture portraits reels estimee : environ 293 portraits trouves sur 400 artistes.
+- Couverture portraits reels estimee : environ 293 portraits trouves sur 410 artistes.
 
-Compteurs actuels apres le pack 023 :
+Compteurs actuels apres le pack 024 :
 
-- Artistes : 400 / 500.
-- Chansons : 426 / 5000.
-- Albums : 220 / 1500.
-- Illustrations : 4615 / 1000.
-- Photos : 1115.
-- Pochettes : 1035.
-- Affiches : 719.
+- Artistes : 410 / 500.
+- Chansons : 436 / 5000.
+- Albums : 230 / 1500.
+- Illustrations : 4745 / 1000.
+- Photos : 1125.
+- Pochettes : 1055.
+- Affiches : 739.
 - Partitions : 0.
-- Anecdotes : 1680.
+- Anecdotes : 1720.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -42,16 +42,16 @@ Compteurs actuels apres le pack 023 :
 
 Dernier pack realise :
 
-- Pack long terme 023 - Priorite 1.
-- 10 nouveaux artistes majeurs ajoutes pour atteindre 400 artistes.
+- Pack long terme 024 - Priorite 1.
+- 10 nouveaux artistes majeurs ajoutes pour consolider le seuil de 400 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Axes enrichis : zouk, zouglou, reggae-ragga, rap funk, rap collectif, rap marseillais, rap social 2000 et diasporas francophones.
+- Axes enrichis : rap francais 2000-2010, rap technique, rap melodique, rap politique, trap française, punchlines, mixtapes et fanbases internet.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 024**.
-- Objectif immediat : consolider **400 artistes majeurs**, puis poursuivre vers **500 artistes**.
+- Reprendre par **Priorite 1 - pack 025**.
+- Objectif immediat : poursuivre vers **500 artistes majeurs**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.
