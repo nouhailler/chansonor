@@ -4,6 +4,15 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 023
+
+- Ajout de 10 artistes majeurs : Magic System, Kassav, Tonton David, Nuttea, Saïan Supa Crew, Alliance Ethnik, 113, Fonky Family, Sniper et Rohff.
+- Ajout de 10 chansons reperes autour du zouk, du zouglou, du reggae-ragga, du rap funk, du rap collectif, du rap marseillais, du rap social 2000 et des diasporas francophones.
+- Ajout de 10 albums structurants.
+- Passage a 400 fiches artistes et validation du seuil de 400 artistes majeurs.
+- Preparation du pack 024 pour consolider le seuil de 400 artistes puis poursuivre vers 500 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 022
 
 - Ajout de 20 artistes majeurs : Oldelaf, Barcella, Les Fatals Picards, Debout sur le Zinc, Java, Les Hurlements d'Léo, La Caravane Passe, Babylon Circus, Sergent Garcia, Danakil, Dub Inc, Sinsemilia, Broussaï, Pierpoljak, As de Trêfle, Les Fils de Teuhpu, GiedRé, Govrache, Gauvain Sers et Les Tit' Nassels.

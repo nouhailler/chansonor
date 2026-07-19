@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 390 / 500
+Artistes : 400 / 500
 
-Chansons : 416 / 5000
+Chansons : 426 / 5000
 
-Albums : 210 / 1500
+Albums : 220 / 1500
 
-Illustrations : 4485 / 1000
+Illustrations : 4615 / 1000
 
-Photos : 1105
+Photos : 1115
 
-Pochettes : 1015
+Pochettes : 1035
 
-Affiches : 699
+Affiches : 719
 
 Partitions : 0
 
-Anecdotes : 1640
+Anecdotes : 1680
 
 Collections : 5
 
@@ -30,17 +30,17 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 022 - Priorite 1.
+Pack long terme 023 - Priorite 1.
 
-- 20 nouveaux artistes majeurs ajoutes pour avancer vers 400 artistes.
-- 20 nouvelles chansons liees aux nouveaux artistes.
+- 10 nouveaux artistes majeurs ajoutes pour atteindre 400 artistes.
+- 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Enrichissement chanson alternative, reggae francophone, ska, fanfare, chanson humoristique, slam chanson, scenes independantes et festivals.
-- 80 nouveaux visuels attaches aux chansons.
+- Enrichissement zouk, zouglou, reggae-ragga, rap funk, rap collectif, rap marseillais, rap social 2000 et diasporas francophones.
+- 40 nouveaux visuels attaches aux chansons.
 - 40 nouveaux visuels attaches aux albums.
-- 100 nouveaux visuels attaches aux nouveaux artistes.
-- 80 nouvelles anecdotes ajoutees aux fiches.
+- 50 nouveaux visuels attaches aux nouveaux artistes.
+- 40 nouvelles anecdotes ajoutees aux fiches.
 
 ## Prochaine tache
 
-Priorite 1 : pack 023, atteindre 400 artistes majeurs.
+Priorite 1 : pack 024, consolider le seuil de 400 artistes majeurs puis poursuivre vers 500 artistes.
