@@ -25,7 +25,7 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 - [x] Atteindre 300 artistes majeurs.
 - [x] Lancer le pack long terme 018 avec 320 artistes au total.
 - [x] Lancer le pack long terme 019 avec 340 artistes au total.
-- [ ] Atteindre 350 artistes majeurs.
+- [x] Atteindre 350 artistes majeurs.
 - [ ] Atteindre 500 artistes majeurs.
 - [ ] Enrichir chaque fiche artiste avec chronologie, discographie, concerts, citations, anecdotes et galerie complete.
 
@@ -127,4 +127,4 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 
 ## Prochaine tache automatique
 
-Priorite 1 : pack 018, consolider le seuil de 300 artistes avec albums, chansons et liens internes supplementaires, puis poursuivre vers 350 artistes.
+Priorite 1 : pack 021, consolider le seuil de 350 artistes avec albums, chansons et liens internes supplementaires, puis poursuivre vers 400 artistes.

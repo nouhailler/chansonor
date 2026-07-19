@@ -4,6 +4,16 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 020
+
+- Ajout de 10 artistes majeurs : Mika, Christophe Maé, Anggun, Chimène Badi, Grégory Lemarchal, Jérémy Frerot, Trois Cafés Gourmands, Kids United, Claudio Capéo et Fréro Delavega.
+- Enrichissement de fiches existantes avec Garou et Amel Bent via nouveaux albums et chansons.
+- Ajout de 22 chansons reperes autour de la pop flamboyante, de la variete acoustique, des grandes voix 2000, de la pop internationale, des reprises familiales, de la chanson regionale et des trajectoires post-television.
+- Ajout de 12 albums structurants.
+- Passage a 350 fiches artistes et validation du seuil de 350 artistes majeurs.
+- Preparation du pack 021 pour poursuivre vers 400 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Corrige
 
 - Mise a jour de la documentation de reprise apres les corrections Netlify et portraits reels, en conservant Pack 020 comme prochaine session de contenu.

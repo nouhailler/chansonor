@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 340 / 500
+Artistes : 350 / 500
 
-Chansons : 354 / 5000
+Chansons : 376 / 5000
 
-Albums : 178 / 1500
+Albums : 190 / 1500
 
-Illustrations : 3859 / 1000
+Illustrations : 4045 / 1000
 
-Photos : 1043
+Photos : 1065
 
-Pochettes : 891
+Pochettes : 935
 
-Affiches : 578
+Affiches : 619
 
 Partitions : 0
 
-Anecdotes : 1416
+Anecdotes : 1480
 
 Collections : 5
 
@@ -30,17 +30,17 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 019 - Priorite 1.
+Pack long terme 020 - Priorite 1.
 
-- 20 nouveaux artistes majeurs ajoutes pour avancer vers 350 artistes.
-- 20 nouvelles chansons liees aux artistes et aux fiches existantes.
-- 10 nouveaux albums structurants.
-- Enrichissement rap marseillais, pop urbaine, R&B francophone, afrolove, afro-pop, tubes de clubs, R&B 2000 et generation reseaux.
-- 80 nouveaux visuels attaches aux chansons.
-- 40 nouveaux visuels attaches aux albums.
-- 100 nouveaux visuels attaches aux nouveaux artistes.
-- 80 nouvelles anecdotes ajoutees aux fiches.
+- 10 nouveaux artistes majeurs ajoutes pour atteindre 350 artistes.
+- 22 nouvelles chansons liees aux nouveaux artistes et aux fiches existantes.
+- 12 nouveaux albums structurants.
+- Enrichissement pop flamboyante, variete acoustique, grandes voix 2000, pop internationale, reprises familiales, chanson regionale et trajectoires post-television.
+- 88 nouveaux visuels attaches aux chansons.
+- 48 nouveaux visuels attaches aux albums.
+- 50 nouveaux visuels attaches aux nouveaux artistes.
+- 64 nouvelles anecdotes ajoutees aux fiches.
 
 ## Prochaine tache
 
-Priorite 1 : pack 020, atteindre 350 artistes majeurs puis preparer la progression vers 400 artistes.
+Priorite 1 : pack 021, preparer la progression vers 400 artistes majeurs.
