@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 027
+
+- Ajout de 10 artistes majeurs : Alpha Wann, Georgio, Népal, Columbine, S-Crew, 1995, Hippocampe Fou, Tsew The Kid, Gringe et Lorenzo.
+- Ajout de 10 chansons reperes autour du rap alternatif, du rap independant, du rap introspectif, du boom bap revival, du rap pop adolescent, de la generation YouTube/mixtape/web et des collectifs 2010.
+- Ajout de 10 albums structurants.
+- Passage a 440 fiches artistes et poursuite vers 500 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 026
 
 - Ajout de 10 artistes majeurs : Daft Punk, Justice, Air, Phoenix, Cassius, Modjo, Étienne de Crécy, Kavinsky, M83 et The Blaze.
