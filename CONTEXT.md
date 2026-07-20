@@ -2,7 +2,7 @@
 
 ## Etat de reprise - 2026-07-19
 
-Dernier pack realise localement : Pack long terme 031 - Priorite 1.
+Dernier pack realise localement : Pack long terme 032 - Priorite 1.
 
 Dernier commit de pack pousse sur `main` : `5c09fab Add priority 1 artist pack 027`.
 
@@ -22,19 +22,19 @@ Etat du depot au moment de l'arret du soir :
 - Controle identifiants : aucun doublon detecte.
 - Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
 - Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
-- Couverture portraits reels estimee : environ 293 portraits trouves sur 480 artistes.
+- Couverture portraits reels estimee : environ 293 portraits trouves sur 490 artistes.
 
-Compteurs actuels apres le pack 031 :
+Compteurs actuels apres le pack 032 :
 
-- Artistes : 480 / 500.
-- Chansons : 506 / 5000.
-- Albums : 300 / 1500.
-- Illustrations : 5655 / 1000.
-- Photos : 1315.
-- Pochettes : 1235.
-- Affiches : 919.
+- Artistes : 490 / 500.
+- Chansons : 516 / 5000.
+- Albums : 310 / 1500.
+- Illustrations : 5785 / 1000.
+- Photos : 1355.
+- Pochettes : 1265.
+- Affiches : 949.
 - Partitions : 0.
-- Anecdotes : 2000.
+- Anecdotes : 2040.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -42,16 +42,16 @@ Compteurs actuels apres le pack 031 :
 
 Dernier pack realise :
 
-- Pack long terme 031 - Priorite 1.
+- Pack long terme 032 - Priorite 1.
 - 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Axes enrichis : rap politique, rap jazz independant, collectifs sociaux, rap de rue, spoken word, R&B urbain et autrices rap.
+- Axes enrichis : rap militant, seconde vague marseillaise, solos Fonky Family, 113, Vitry, diasporas maghrebines et Afrique francophone.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 032**.
-- Objectif immediat : poursuivre vers **500 artistes majeurs**.
+- Reprendre par **Priorite 1 - pack 033**.
+- Objectif immediat : atteindre **500 artistes majeurs**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.

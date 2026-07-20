@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 032
+
+- Ajout de 10 artistes majeurs : Keny Arkana, Psy 4 de la Rime, Le 3ème Œil, Chiens de Paille, Faf Larage, Don Choa, Sat l’Artificier, Rim’K, AP et Mokobé.
+- Ajout de 10 chansons reperes autour du rap militant, du rap marseillais 2000, des solos Fonky Family, de 113, de Vitry, des diasporas maghrebines et africaines.
+- Ajout de 10 albums structurants.
+- Passage a 490 fiches artistes et preparation du seuil final de 500 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 031
 
 - Ajout de 10 artistes majeurs : Casey, Rocé, La Brigade, Expression Direkt, ATK, Kabal, Less du Neuf, Princess Aniès, K-Reen et Bams.

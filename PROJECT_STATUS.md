@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 480 / 500
+Artistes : 490 / 500
 
-Chansons : 506 / 5000
+Chansons : 516 / 5000
 
-Albums : 300 / 1500
+Albums : 310 / 1500
 
-Illustrations : 5655 / 1000
+Illustrations : 5785 / 1000
 
-Photos : 1315
+Photos : 1355
 
-Pochettes : 1235
+Pochettes : 1265
 
-Affiches : 919
+Affiches : 949
 
 Partitions : 0
 
-Anecdotes : 2000
+Anecdotes : 2040
 
 Collections : 5
 
@@ -30,12 +30,12 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 031 - Priorite 1.
+Pack long terme 032 - Priorite 1.
 
 - 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Enrichissement rap independant et voix 90-2000 : rap politique, rap jazz, collectifs sociaux, rap de rue, spoken word, R&B urbain et autrices rap.
+- Enrichissement rap marseillais, diaspora et solos de collectifs : rap militant, seconde vague sudiste, Fonky Family, 113, Afrique francophone et scenes de Marseille/Vitry.
 - 40 nouveaux visuels attaches aux chansons.
 - 40 nouveaux visuels attaches aux albums.
 - 50 nouveaux visuels attaches aux nouveaux artistes.
@@ -43,4 +43,4 @@ Pack long terme 031 - Priorite 1.
 
 ## Prochaine tache
 
-Priorite 1 : pack 032, poursuivre vers 500 artistes majeurs.
+Priorite 1 : pack 033, atteindre 500 artistes majeurs.
