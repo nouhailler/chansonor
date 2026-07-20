@@ -8,12 +8,12 @@ L’application met l’image au centre de l’experience : portraits, pochettes
 
 ## Etat actuel
 
-- Dernier pack de contenu traite : Pack long terme 027.
+- Dernier pack de contenu traite : Pack long terme 034.
 - Prochaine session de contenu : Pack long terme 035, avec objectif d’enrichir les fiches artistes et poursuivre chansons/albums.
 - Contenus indexes : 510 artistes, 536 chansons, 330 albums.
-- Portraits reels : environ 293 portraits Wikimedia/Wikidata trouves sur 440 artistes, avec fallback visuel pour les fiches restantes.
+- Portraits reels : environ 293 portraits Wikimedia/Wikidata trouves sur 510 artistes, avec fallback visuel pour les fiches restantes.
 - Deploiement Netlify : les routes React profondes sont prises en charge via `public/_redirects`.
-- Etat de fin de session du 2026-07-19 : tous les packs locaux 020 a 027 sont commites, validations OK, push demande.
+- Etat de fin de session du 2026-07-20 : Pack long terme 034 commite et pousse sur `origin/main` (`7965c26`), validations OK, workspace propre.
 
 ## Captures d’ecran
 

@@ -1,10 +1,10 @@
 # Contexte Chansonor
 
-## Etat de reprise - 2026-07-19
+## Etat de reprise - 2026-07-20
 
 Dernier pack realise localement : Pack long terme 034 - Priorite 1.
 
-Dernier commit de pack pousse sur `main` : `5c09fab Add priority 1 artist pack 027`.
+Dernier commit de pack pousse sur `main` : `7965c26 Add 1950s artist pack 034`.
 
 Derniers commits techniques pousses apres le pack 019 :
 
@@ -12,11 +12,11 @@ Derniers commits techniques pousses apres le pack 019 :
 - `42ccc00 Load real artist portraits from Wikimedia`.
 - `62f943e Improve Wikimedia artist portrait coverage`.
 
-Etat du depot au moment de l'arret du soir :
+Etat du depot au moment de l'arret du soir du 2026-07-20 :
 
 - Branche : `main`.
-- Depot distant : `origin/main`.
-- Etat Git : packs 020 a 027 commites localement, push demande sur `origin/main`.
+- Depot distant : `origin/main` (`https://github.com/nouhailler/chansonor.git`).
+- Etat Git : Pack long terme 034 commite et pousse sur `origin/main`; workspace propre.
 - Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
 - Audit npm : 0 vulnerabilite.
 - Controle identifiants : aucun doublon detecte.
