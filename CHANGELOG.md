@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 028
+
+- Ajout de 10 artistes majeurs : Doc Gynéco, Passi, Ärsenik, Fabe, Raggasonic, Ménélik, Benny B, MC Jean Gab’1, La Caution et TTC.
+- Ajout de 10 chansons reperes autour du rap funk, du Secteur A, du rap conscient, du ragga francophone, du rap pop radio, du rap belge, de l’autobiographie rap, du rap independant et de l’electro-rap.
+- Ajout de 10 albums structurants.
+- Passage a 450 fiches artistes et poursuite vers 500 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 027
 
 - Ajout de 10 artistes majeurs : Alpha Wann, Georgio, Népal, Columbine, S-Crew, 1995, Hippocampe Fou, Tsew The Kid, Gringe et Lorenzo.

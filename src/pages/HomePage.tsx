@@ -13,6 +13,10 @@ import { Visual } from '../components/Visual';
 import { albums, artists, collections, decades, songs, timeline } from '../data/library';
 import { media, sourceRegistry, visual } from '../data/images';
 
+const featuredArtists = artists.slice(0, 80);
+const featuredAlbums = albums.slice(0, 80);
+const latestSongs = songs.slice(-12);
+
 const fade = {
   hidden: { opacity: 0, y: 24 },
   show: { opacity: 1, y: 0 }
@@ -105,10 +109,10 @@ export function HomePage() {
         <Box sx={{ mt: 7 }}>
           <SectionHeader eyebrow="Carrousel" title="Artistes celebres et oublies" />
           <HorizontalRail>
-            {artists.map((artist) => (
+            {featuredArtists.map((artist) => (
               <MediaCard key={artist.id} title={artist.name} subtitle={`${artist.years} · ${artist.styles.join(', ')}`} image={artist.hero} badge={artist.region} href={`/artists/${artist.id}`} />
             ))}
-            {artists.map((artist) => (
+            {featuredArtists.slice(0, 40).map((artist) => (
               <MediaCard key={`${artist.id}-forgotten`} title={`Autour de ${artist.name}`} subtitle="Influences, reprises et archives" image={artist.gallery[1]} badge="Oublies ?" href={`/artists/${artist.id}`} />
             ))}
           </HorizontalRail>
@@ -117,7 +121,7 @@ export function HomePage() {
         <Box sx={{ mt: 6 }}>
           <SectionHeader eyebrow="Derniers albums" title="Pochettes, formats et editions" action={<Button component={RouterLink} to="/albums" variant="outlined">Tout voir</Button>} />
           <HorizontalRail>
-            {albums.map((album) => <MediaCard key={album.id} title={album.title} subtitle={`${album.artist} · ${album.format} · ${album.year}`} image={album.cover} badge={album.mood} href={`/albums/${album.id}`} />)}
+            {featuredAlbums.map((album) => <MediaCard key={album.id} title={album.title} subtitle={`${album.artist} · ${album.format} · ${album.year}`} image={album.cover} badge={album.mood} href={`/albums/${album.id}`} />)}
           </HorizontalRail>
         </Box>
 
@@ -125,7 +129,7 @@ export function HomePage() {
           <Grid size={{ xs: 12, md: 7 }}>
             <SectionHeader eyebrow="Dernieres chansons" title="Quatre titres pour partir" action={<Button component={RouterLink} to="/songs" variant="outlined">Tout voir</Button>} />
             <Grid container spacing={2}>
-              {songs.map((song) => (
+              {latestSongs.map((song) => (
                 <Grid size={{ xs: 12, sm: 6 }} key={song.id}>
                   <MediaCard title={song.title} subtitle={`${song.artist} · ${song.year} · ${song.duration}`} image={song.cover} badge={song.style} href={`/songs/${song.id}`} wide />
                 </Grid>

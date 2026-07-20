@@ -2,7 +2,7 @@
 
 ## Etat de reprise - 2026-07-19
 
-Dernier pack realise localement : Pack long terme 027 - Priorite 1.
+Dernier pack realise localement : Pack long terme 028 - Priorite 1.
 
 Dernier commit de pack pousse sur `main` : `5c09fab Add priority 1 artist pack 027`.
 
@@ -22,19 +22,19 @@ Etat du depot au moment de l'arret du soir :
 - Controle identifiants : aucun doublon detecte.
 - Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
 - Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
-- Couverture portraits reels estimee : environ 293 portraits trouves sur 440 artistes.
+- Couverture portraits reels estimee : environ 293 portraits trouves sur 450 artistes.
 
-Compteurs actuels apres le pack 027 :
+Compteurs actuels apres le pack 028 :
 
-- Artistes : 440 / 500.
-- Chansons : 466 / 5000.
-- Albums : 260 / 1500.
-- Illustrations : 5135 / 1000.
-- Photos : 1155.
-- Pochettes : 1115.
-- Affiches : 799.
+- Artistes : 450 / 500.
+- Chansons : 476 / 5000.
+- Albums : 270 / 1500.
+- Illustrations : 5265 / 1000.
+- Photos : 1195.
+- Pochettes : 1145.
+- Affiches : 829.
 - Partitions : 0.
-- Anecdotes : 1840.
+- Anecdotes : 1880.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -42,15 +42,15 @@ Compteurs actuels apres le pack 027 :
 
 Dernier pack realise :
 
-- Pack long terme 027 - Priorite 1.
+- Pack long terme 028 - Priorite 1.
 - 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Axes enrichis : rap alternatif, rap independant, rap introspectif, boom bap revival, rap pop adolescent, generation YouTube/mixtape/web et collectifs 2010.
+- Axes enrichis : rap funk, Secteur A, rap conscient, ragga francophone, rap pop radio, rap belge, autobiographie frontale, rap independant et electro-rap.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 028**.
+- Reprendre par **Priorite 1 - pack 029**.
 - Objectif immediat : poursuivre vers **500 artistes majeurs**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.

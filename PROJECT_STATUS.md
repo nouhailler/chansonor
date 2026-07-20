@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 440 / 500
+Artistes : 450 / 500
 
-Chansons : 466 / 5000
+Chansons : 476 / 5000
 
-Albums : 260 / 1500
+Albums : 270 / 1500
 
-Illustrations : 5135 / 1000
+Illustrations : 5265 / 1000
 
-Photos : 1155
+Photos : 1195
 
-Pochettes : 1115
+Pochettes : 1145
 
-Affiches : 799
+Affiches : 829
 
 Partitions : 0
 
-Anecdotes : 1840
+Anecdotes : 1880
 
 Collections : 5
 
@@ -30,12 +30,12 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 027 - Priorite 1.
+Pack long terme 028 - Priorite 1.
 
 - 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Enrichissement rap alternatif, rap independant, rap introspectif, boom bap revival, rap pop adolescent, generation YouTube/mixtape/web et collectifs 2010.
+- Enrichissement rap francophone 90-2000 : rap funk, Secteur A, rap conscient, ragga, rap pop radio, rap belge, autobiographie frontale, rap independant et electro-rap.
 - 40 nouveaux visuels attaches aux chansons.
 - 40 nouveaux visuels attaches aux albums.
 - 50 nouveaux visuels attaches aux nouveaux artistes.
@@ -43,4 +43,4 @@ Pack long terme 027 - Priorite 1.
 
 ## Prochaine tache
 
-Priorite 1 : pack 028, poursuivre vers 500 artistes majeurs.
+Priorite 1 : pack 029, poursuivre vers 500 artistes majeurs.
