@@ -2,7 +2,7 @@
 
 ## Etat de reprise - 2026-07-19
 
-Dernier pack realise localement : Pack long terme 029 - Priorite 1.
+Dernier pack realise localement : Pack long terme 030 - Priorite 1.
 
 Dernier commit de pack pousse sur `main` : `5c09fab Add priority 1 artist pack 027`.
 
@@ -22,19 +22,19 @@ Etat du depot au moment de l'arret du soir :
 - Controle identifiants : aucun doublon detecte.
 - Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
 - Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
-- Couverture portraits reels estimee : environ 293 portraits trouves sur 460 artistes.
+- Couverture portraits reels estimee : environ 293 portraits trouves sur 470 artistes.
 
-Compteurs actuels apres le pack 029 :
+Compteurs actuels apres le pack 030 :
 
-- Artistes : 460 / 500.
-- Chansons : 486 / 5000.
-- Albums : 280 / 1500.
-- Illustrations : 5395 / 1000.
-- Photos : 1235.
-- Pochettes : 1175.
-- Affiches : 859.
+- Artistes : 470 / 500.
+- Chansons : 496 / 5000.
+- Albums : 290 / 1500.
+- Illustrations : 5525 / 1000.
+- Photos : 1275.
+- Pochettes : 1205.
+- Affiches : 889.
 - Partitions : 0.
-- Anecdotes : 1920.
+- Anecdotes : 1960.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -42,15 +42,15 @@ Compteurs actuels apres le pack 029 :
 
 Dernier pack realise :
 
-- Pack long terme 029 - Priorite 1.
+- Pack long terme 030 - Priorite 1.
 - 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Axes enrichis : rap politique, rap hardcore conscient, collectifs du 94, rap independant, boom bap underground, rap jazz et scenes regionales.
+- Axes enrichis : dancehall francophone, ragga pionnier, boom bap solo, Time Bomb, rap alternatif, rap punk, rap rock et duo narratif.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 030**.
+- Reprendre par **Priorite 1 - pack 031**.
 - Objectif immediat : poursuivre vers **500 artistes majeurs**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.

@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 030
+
+- Ajout de 10 artistes majeurs : Lord Kossity, Daddy Yod, Rocca, Busta Flex, Zoxea, X-Men, Klub des Loosers, Svinkels, Stupeflip et Casseurs Flowters.
+- Ajout de 10 chansons reperes autour du dancehall francophone, du ragga pionnier, du boom bap solo, de Time Bomb, du rap alternatif, du rap punk, du rap rock et du duo narratif.
+- Ajout de 10 albums structurants.
+- Passage a 470 fiches artistes et poursuite vers 500 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 029
 
 - Ajout de 10 artistes majeurs : Ministère AMER, Ideal J, Lunatic, Mafia K’1 Fry, Intouchable, Scred Connexion, La Rumeur, KDD, La Cliqua et Les Sages Poètes de la Rue.
