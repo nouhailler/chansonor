@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 029
+
+- Ajout de 10 artistes majeurs : Ministère AMER, Ideal J, Lunatic, Mafia K’1 Fry, Intouchable, Scred Connexion, La Rumeur, KDD, La Cliqua et Les Sages Poètes de la Rue.
+- Ajout de 10 chansons reperes autour du rap politique, du rap hardcore conscient, du 94, du rap independant, du boom bap underground, du rap jazz et des scenes regionales.
+- Ajout de 10 albums structurants.
+- Passage a 460 fiches artistes et poursuite vers 500 artistes.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 028
 
 - Ajout de 10 artistes majeurs : Doc Gynéco, Passi, Ärsenik, Fabe, Raggasonic, Ménélik, Benny B, MC Jean Gab’1, La Caution et TTC.
