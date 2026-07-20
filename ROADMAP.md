@@ -40,7 +40,8 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 - [x] Lancer le pack long terme 030 avec 470 artistes au total.
 - [x] Lancer le pack long terme 031 avec 480 artistes au total.
 - [x] Lancer le pack long terme 032 avec 490 artistes au total.
-- [ ] Atteindre 500 artistes majeurs.
+- [x] Lancer le pack long terme 033 avec 500 artistes au total.
+- [x] Atteindre 500 artistes majeurs.
 - [ ] Enrichir chaque fiche artiste avec chronologie, discographie, concerts, citations, anecdotes et galerie complete.
 
 ## Priorite 2 - Chansons
@@ -78,6 +79,7 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 - [x] Lancer le pack long terme 030 avec 496 chansons au total.
 - [x] Lancer le pack long terme 031 avec 506 chansons au total.
 - [x] Lancer le pack long terme 032 avec 516 chansons au total.
+- [x] Lancer le pack long terme 033 avec 526 chansons au total.
 - [x] Atteindre 100 chansons majeures.
 - [ ] Atteindre 500 chansons majeures.
 - [ ] Atteindre 1000 chansons majeures.
@@ -121,6 +123,7 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 - [x] Lancer le pack long terme 030 avec 290 albums au total.
 - [x] Lancer le pack long terme 031 avec 300 albums au total.
 - [x] Lancer le pack long terme 032 avec 310 albums au total.
+- [x] Lancer le pack long terme 033 avec 320 albums au total.
 - [ ] Atteindre 500 albums.
 - [ ] Atteindre 1000 albums.
 - [ ] Atteindre 1500 albums.
@@ -167,4 +170,4 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 
 ## Prochaine tache automatique
 
-Priorite 1 : pack 033, atteindre 500 artistes avec albums, chansons et liens internes supplementaires.
+Priorite 1 : pack 034, enrichir les fiches artistes existantes et poursuivre chansons/albums avec liens internes supplementaires.

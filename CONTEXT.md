@@ -2,7 +2,7 @@
 
 ## Etat de reprise - 2026-07-19
 
-Dernier pack realise localement : Pack long terme 032 - Priorite 1.
+Dernier pack realise localement : Pack long terme 033 - Priorite 1.
 
 Dernier commit de pack pousse sur `main` : `5c09fab Add priority 1 artist pack 027`.
 
@@ -22,19 +22,19 @@ Etat du depot au moment de l'arret du soir :
 - Controle identifiants : aucun doublon detecte.
 - Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
 - Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
-- Couverture portraits reels estimee : environ 293 portraits trouves sur 490 artistes.
+- Couverture portraits reels estimee : environ 293 portraits trouves sur 500 artistes.
 
-Compteurs actuels apres le pack 032 :
+Compteurs actuels apres le pack 033 :
 
-- Artistes : 490 / 500.
-- Chansons : 516 / 5000.
-- Albums : 310 / 1500.
-- Illustrations : 5785 / 1000.
-- Photos : 1355.
-- Pochettes : 1265.
-- Affiches : 949.
+- Artistes : 500 / 500.
+- Chansons : 526 / 5000.
+- Albums : 320 / 1500.
+- Illustrations : 5915 / 1000.
+- Photos : 1395.
+- Pochettes : 1295.
+- Affiches : 979.
 - Partitions : 0.
-- Anecdotes : 2040.
+- Anecdotes : 2080.
 - Collections : 5.
 - Quiz : 1.
 - Articles : 0.
@@ -42,16 +42,16 @@ Compteurs actuels apres le pack 032 :
 
 Dernier pack realise :
 
-- Pack long terme 032 - Priorite 1.
-- 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
+- Pack long terme 033 - Priorite 1.
+- 10 nouveaux artistes patrimoniaux des annees 1940 ajoutes pour atteindre 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Axes enrichis : rap militant, seconde vague marseillaise, solos Fonky Family, 113, Vitry, diasporas maghrebines et Afrique francophone.
+- Axes enrichis : operette, radio, crooners, chanson parisienne, valse de guerre, music-hall, jazz vocal, compositrices, tenors populaires et swing orchestral.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 033**.
-- Objectif immediat : atteindre **500 artistes majeurs**.
+- Reprendre par **Priorite 1 - pack 034**.
+- Objectif immediat : enrichir les fiches artistes existantes et poursuivre vers **500 chansons majeures** puis **500 albums**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
 - Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.

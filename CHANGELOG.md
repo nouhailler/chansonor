@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 033
+
+- Ajout de 10 artistes patrimoniaux des annees 1940 : Georges Guétary, André Claveau, Jean Sablon, Yvette Giraud, Rina Ketty, Reda Caire, Léo Marjane, Mireille, Jean Lumière et Ray Ventura.
+- Ajout de 10 chansons reperes autour de l’operette, de la radio, des crooners, de la chanson parisienne, de la valse de guerre, du music-hall, du jazz vocal, des compositrices et du swing orchestral.
+- Ajout de 10 albums structurants.
+- Passage a 500 fiches artistes et validation du seuil Priorite 1.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 032
 
 - Ajout de 10 artistes majeurs : Keny Arkana, Psy 4 de la Rime, Le 3ème Œil, Chiens de Paille, Faf Larage, Don Choa, Sat l’Artificier, Rim’K, AP et Mokobé.

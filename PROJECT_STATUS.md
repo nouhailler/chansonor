@@ -2,23 +2,23 @@
 
 ## Contenus
 
-Artistes : 490 / 500
+Artistes : 500 / 500
 
-Chansons : 516 / 5000
+Chansons : 526 / 5000
 
-Albums : 310 / 1500
+Albums : 320 / 1500
 
-Illustrations : 5785 / 1000
+Illustrations : 5915 / 1000
 
-Photos : 1355
+Photos : 1395
 
-Pochettes : 1265
+Pochettes : 1295
 
-Affiches : 949
+Affiches : 979
 
 Partitions : 0
 
-Anecdotes : 2040
+Anecdotes : 2080
 
 Collections : 5
 
@@ -30,12 +30,12 @@ Evenements historiques : 5
 
 ## Dernier pack realise
 
-Pack long terme 032 - Priorite 1.
+Pack long terme 033 - Priorite 1.
 
-- 10 nouveaux artistes majeurs ajoutes pour poursuivre vers 500 artistes.
+- 10 nouveaux artistes patrimoniaux des annees 1940 ajoutes pour atteindre 500 artistes.
 - 10 nouvelles chansons liees aux nouveaux artistes.
 - 10 nouveaux albums structurants.
-- Enrichissement rap marseillais, diaspora et solos de collectifs : rap militant, seconde vague sudiste, Fonky Family, 113, Afrique francophone et scenes de Marseille/Vitry.
+- Enrichissement chanson des annees 1940 : operette, radio, crooners, chanson parisienne, valse de guerre, music-hall, jazz vocal, compositrices, tenors populaires et swing orchestral.
 - 40 nouveaux visuels attaches aux chansons.
 - 40 nouveaux visuels attaches aux albums.
 - 50 nouveaux visuels attaches aux nouveaux artistes.
@@ -43,4 +43,4 @@ Pack long terme 032 - Priorite 1.
 
 ## Prochaine tache
 
-Priorite 1 : pack 033, atteindre 500 artistes majeurs.
+Priorite 1 : pack 034, enrichir les fiches artistes et poursuivre chansons/albums.
