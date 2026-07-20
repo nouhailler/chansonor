@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 031
+
+- Ajout de 10 artistes majeurs : Casey, Rocé, La Brigade, Expression Direkt, ATK, Kabal, Less du Neuf, Princess Aniès, K-Reen et Bams.
+- Ajout de 10 chansons reperes autour du rap politique, du rap jazz independant, des collectifs sociaux, du rap de rue, du spoken word, du R&B urbain et des autrices rap.
+- Ajout de 10 albums structurants.
+- Passage a 480 fiches artistes et validation du seuil de 300 albums.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 030
 
 - Ajout de 10 artistes majeurs : Lord Kossity, Daddy Yod, Rocca, Busta Flex, Zoxea, X-Men, Klub des Loosers, Svinkels, Stupeflip et Casseurs Flowters.
