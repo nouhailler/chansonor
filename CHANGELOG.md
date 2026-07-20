@@ -4,6 +4,14 @@ Toutes les evolutions notables de Chansonor sont documentees ici.
 
 ## [0.1.0] - 2026-07-14
 
+### Ajoute - Pack long terme 034
+
+- Ajout de 10 artistes patrimoniaux des annees 1950 : Catherine Sauvage, Les Frères Jacques, Magali Noël, Dario Moreno, Colette Renard, Francis Lemarque, Gloria Lasso, Jacques Pills, Marcel Amont et Jean-Claude Pascal.
+- Ajout de 10 chansons reperes autour de la rive gauche, du quatuor vocal, du cabaret provocateur, du music-hall festif, de la chanson grivoise, de Paris populaire, des grandes voix romantiques, des duos radio, de la fantaisie et de l’Eurovision.
+- Ajout de 10 albums structurants.
+- Passage a 510 fiches artistes et poursuite de l’enrichissement au-dela du seuil Priorite 1.
+- Mise a jour de `PROJECT_STATUS.md`, `ROADMAP.md` et `CONTEXT.md` apres le pack.
+
 ### Ajoute - Pack long terme 033
 
 - Ajout de 10 artistes patrimoniaux des annees 1940 : Georges Guétary, André Claveau, Jean Sablon, Yvette Giraud, Rina Ketty, Reda Caire, Léo Marjane, Mireille, Jean Lumière et Ray Ventura.
