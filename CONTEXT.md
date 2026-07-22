@@ -1,61 +1,62 @@
 # Contexte Chansonor
 
-## Etat de reprise - 2026-07-20
+## Etat de reprise - 2026-07-22
 
-Dernier pack realise localement : Pack long terme 034 - Priorite 1.
+Dernier pack realise localement : Pack long terme chansons 015 - Priorite 2.
 
-Dernier commit de pack pousse sur `main` : `7965c26 Add 1950s artist pack 034`.
+Dernier commit pousse avant cette session de documentation : `27c9f90 Add song packs and improve mobile loading`.
 
 Derniers commits techniques pousses apres le pack 019 :
 
 - `1f23e80 Add Netlify SPA redirect`.
 - `42ccc00 Load real artist portraits from Wikimedia`.
 - `62f943e Improve Wikimedia artist portrait coverage`.
+- `27c9f90 Add song packs and improve mobile loading`.
 
-Etat du depot au moment de l'arret du soir du 2026-07-20 :
+Etat du depot au moment de la mise a jour du 2026-07-22 :
 
 - Branche : `main`.
 - Depot distant : `origin/main` (`https://github.com/nouhailler/chansonor.git`).
-- Etat Git : Pack long terme 034 commite et pousse sur `origin/main`; workspace propre.
-- Derniere validation complete : `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants.
-- Audit npm : 0 vulnerabilite.
-- Controle identifiants : aucun doublon detecte.
+- Etat Git : packs chansons long terme `lt007` a `lt015` ajoutes localement, documentation synchronisee, commit et push demandes.
+- Derniere validation complete : `npm test`, `npm run build`, controle des compteurs `lt001` a `lt015`.
+- Audit npm : non relance sur cette session.
+- Controle identifiants : compteurs long terme conformes.
 - Routes Netlify : `public/_redirects` redirige `/*` vers `/index.html` pour les routes React.
 - Portraits artistes : chargement Wikimedia/Wikidata avec cache navigateur v2, variantes de noms et overrides verifies.
-- Couverture portraits reels estimee : environ 293 portraits trouves sur 510 artistes.
+- Couverture portraits reels : Wikimedia/Wikidata actif avec fallback visuel local.
 
-Compteurs actuels apres le pack 034 :
+Compteurs actuels apres le pack chansons 015 :
 
-- Artistes : 510 / 500.
-- Chansons : 536 / 5000.
-- Albums : 330 / 1500.
-- Illustrations : 6045 / 1000.
-- Photos : 1435.
-- Pochettes : 1325.
-- Affiches : 1009.
-- Partitions : 0.
-- Anecdotes : 2120.
+- Artistes : 577 / 500.
+- Chansons : 870 / 5000.
+- Albums : 397 / 1500.
 - Collections : 5.
+- Packs chansons long terme : 266 chansons tracables de `lt001` a `lt015`.
+- Illustrations : plus de 5000 references visuelles dans les donnees.
+- Photos : couverture via assets locaux, placeholders et Wikimedia/Wikidata.
+- Pochettes : nombreuses pochettes structurees dans les fiches chansons et albums.
+- Affiches : galeries enrichies sur artistes, chansons et albums.
+- Partitions : 0.
+- Anecdotes : plusieurs milliers d'entrees dans les fiches artistes, chansons et albums.
 - Quiz : 1.
 - Articles : 0.
 - Evenements historiques : 5.
 
 Dernier pack realise :
 
-- Pack long terme 034 - Priorite 1.
-- 10 nouveaux artistes patrimoniaux des annees 1950 ajoutes au-dela du seuil de 500 artistes.
-- 10 nouvelles chansons liees aux nouveaux artistes.
-- 10 nouveaux albums structurants.
-- Axes enrichis : rive gauche, quatuor vocal, cabaret provocateur, music-hall festif, chanson grivoise, Paris populaire, grandes voix romantiques, duos radio, fantaisie et Eurovision.
+- Pack long terme chansons 015 - Priorite 2.
+- 10 nouvelles chansons contemporaines ajoutees.
+- Cumul long terme chansons porte a 266 titres tracables.
+- Axes enrichis : pop gitane, duo pop francophone, pop rap, chanson familiale, ballades contemporaines et variete urbaine.
 
 Prochaine etape obligatoire :
 
-- Reprendre par **Priorite 1 - pack 035**.
-- Objectif immediat : enrichir les fiches artistes existantes et poursuivre vers **500 chansons majeures** puis **500 albums**.
+- Reprendre par **Priorite 2 - pack chansons long terme 016**.
+- Objectif immediat : passer a **286 chansons tracables** (`lt001` a `lt016`), puis poursuivre vers **500 chansons majeures**.
 - Continuer a verifier les doublons avant creation.
 - Enrichir les fiches existantes si l’artiste, la chanson ou l’album existe deja.
-- Mettre a jour `PROJECT_STATUS.md`, `ROADMAP.md` et `CHANGELOG.md`.
-- Valider avec `npm run build`, `npm test`, `npm audit`, `git diff --check`, controle des identifiants, puis commit et push.
+- Mettre a jour `README.md`, `CONTEXT.md`, `ROADMAP.md` et les fichiers de suivi utiles.
+- Valider avec `npm test`, `npm run build`, `git diff --check`, controle des identifiants, puis commit et push.
 
 ## Vision produit
 

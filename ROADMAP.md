@@ -50,38 +50,38 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 - [x] Creer les premieres fiches chansons.
 - [x] Lancer le pack long terme 001 avec 16 chansons au total.
 - [x] Lancer le pack long terme 002 avec 32 chansons tracables au total (`lt001` + `lt002`).
-- [x] Lancer le pack long terme 003 avec 36 chansons au total.
-- [x] Lancer le pack long terme 004 avec 51 chansons au total.
-- [x] Lancer le pack long terme 005 avec 69 chansons au total.
-- [x] Lancer le pack long terme 006 avec 84 chansons au total.
-- [x] Lancer le pack long terme 007 avec 104 chansons au total.
-- [x] Lancer le pack long terme 008 avec 124 chansons au total.
-- [x] Lancer le pack long terme 009 avec 145 chansons au total.
-- [x] Lancer le pack long terme 010 avec 172 chansons au total.
-- [x] Lancer le pack long terme 011 avec 195 chansons au total.
-- [x] Lancer le pack long terme 012 avec 215 chansons au total.
-- [x] Lancer le pack long terme 013 avec 235 chansons au total.
-- [x] Lancer le pack long terme 014 avec 256 chansons au total.
-- [x] Lancer le pack long terme 015 avec 266 chansons au total.
-- [x] Lancer le pack long terme 016 avec 286 chansons au total.
-- [x] Lancer le pack long terme 017 avec 314 chansons au total.
-- [x] Lancer le pack long terme 018 avec 334 chansons au total.
-- [x] Lancer le pack long terme 019 avec 354 chansons au total.
-- [x] Lancer le pack long terme 020 avec 376 chansons au total.
-- [x] Lancer le pack long terme 021 avec 396 chansons au total.
-- [x] Lancer le pack long terme 022 avec 416 chansons au total.
-- [x] Lancer le pack long terme 023 avec 426 chansons au total.
-- [x] Lancer le pack long terme 024 avec 436 chansons au total.
-- [x] Lancer le pack long terme 025 avec 446 chansons au total.
-- [x] Lancer le pack long terme 026 avec 456 chansons au total.
-- [x] Lancer le pack long terme 027 avec 466 chansons au total.
-- [x] Lancer le pack long terme 028 avec 476 chansons au total.
-- [x] Lancer le pack long terme 029 avec 486 chansons au total.
-- [x] Lancer le pack long terme 030 avec 496 chansons au total.
-- [x] Lancer le pack long terme 031 avec 506 chansons au total.
-- [x] Lancer le pack long terme 032 avec 516 chansons au total.
-- [x] Lancer le pack long terme 033 avec 526 chansons au total.
-- [x] Lancer le pack long terme 034 avec 536 chansons au total.
+- [x] Lancer le pack long terme 003 avec 36 chansons tracables au total (`lt001` a `lt003`).
+- [x] Lancer le pack long terme 004 avec 51 chansons tracables au total (`lt001` a `lt004`).
+- [x] Lancer le pack long terme 005 avec 69 chansons tracables au total (`lt001` a `lt005`).
+- [x] Lancer le pack long terme 006 avec 84 chansons tracables au total (`lt001` a `lt006`).
+- [x] Lancer le pack long terme 007 avec 104 chansons tracables au total (`lt001` a `lt007`).
+- [x] Lancer le pack long terme 008 avec 124 chansons tracables au total (`lt001` a `lt008`).
+- [x] Lancer le pack long terme 009 avec 145 chansons tracables au total (`lt001` a `lt009`).
+- [x] Lancer le pack long terme 010 avec 172 chansons tracables au total (`lt001` a `lt010`).
+- [x] Lancer le pack long terme 011 avec 195 chansons tracables au total (`lt001` a `lt011`).
+- [x] Lancer le pack long terme 012 avec 215 chansons tracables au total (`lt001` a `lt012`).
+- [x] Lancer le pack long terme 013 avec 235 chansons tracables au total (`lt001` a `lt013`).
+- [x] Lancer le pack long terme 014 avec 256 chansons tracables au total (`lt001` a `lt014`).
+- [x] Lancer le pack long terme 015 avec 266 chansons tracables au total (`lt001` a `lt015`).
+- [ ] Lancer le pack long terme 016 avec 286 chansons tracables au total (`lt001` a `lt016`).
+- [ ] Lancer le pack long terme 017 avec 314 chansons tracables au total (`lt001` a `lt017`).
+- [ ] Lancer le pack long terme 018 avec 334 chansons tracables au total (`lt001` a `lt018`).
+- [ ] Lancer le pack long terme 019 avec 354 chansons tracables au total (`lt001` a `lt019`).
+- [ ] Lancer le pack long terme 020 avec 376 chansons tracables au total (`lt001` a `lt020`).
+- [ ] Lancer le pack long terme 021 avec 396 chansons tracables au total (`lt001` a `lt021`).
+- [ ] Lancer le pack long terme 022 avec 416 chansons tracables au total (`lt001` a `lt022`).
+- [ ] Lancer le pack long terme 023 avec 426 chansons tracables au total (`lt001` a `lt023`).
+- [ ] Lancer le pack long terme 024 avec 436 chansons tracables au total (`lt001` a `lt024`).
+- [ ] Lancer le pack long terme 025 avec 446 chansons tracables au total (`lt001` a `lt025`).
+- [ ] Lancer le pack long terme 026 avec 456 chansons tracables au total (`lt001` a `lt026`).
+- [ ] Lancer le pack long terme 027 avec 466 chansons tracables au total (`lt001` a `lt027`).
+- [ ] Lancer le pack long terme 028 avec 476 chansons tracables au total (`lt001` a `lt028`).
+- [ ] Lancer le pack long terme 029 avec 486 chansons tracables au total (`lt001` a `lt029`).
+- [ ] Lancer le pack long terme 030 avec 496 chansons tracables au total (`lt001` a `lt030`).
+- [ ] Lancer le pack long terme 031 avec 506 chansons tracables au total (`lt001` a `lt031`).
+- [ ] Lancer le pack long terme 032 avec 516 chansons tracables au total (`lt001` a `lt032`).
+- [ ] Lancer le pack long terme 033 avec 526 chansons tracables au total (`lt001` a `lt033`).
+- [ ] Lancer le pack long terme 034 avec 536 chansons tracables au total (`lt001` a `lt034`).
 - [x] Atteindre 100 chansons majeures.
 - [ ] Atteindre 500 chansons majeures.
 - [ ] Atteindre 1000 chansons majeures.
