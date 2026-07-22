@@ -3,7 +3,7 @@ import CakeIcon from '@mui/icons-material/Cake';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import SearchIcon from '@mui/icons-material/Search';
-import { Box, Button, Chip, Container, Grid2 as Grid, InputAdornment, Paper, Stack, TextField, Typography } from '@mui/material';
+import { Box, Button, Chip, Container, Grid2 as Grid, InputAdornment, Paper, Stack, TextField, Typography, useMediaQuery } from '@mui/material';
 import { motion } from 'framer-motion';
 import { Link as RouterLink } from 'react-router-dom';
 import { HorizontalRail } from '../components/HorizontalRail';
@@ -13,16 +13,18 @@ import { Visual } from '../components/Visual';
 import { albums, artists, collections, decades, songs, timeline } from '../data/library';
 import { media, sourceRegistry, visual } from '../data/images';
 
-const featuredArtists = artists.slice(0, 80);
-const featuredAlbums = albums.slice(0, 80);
-const latestSongs = songs.slice(-12);
-
 const fade = {
   hidden: { opacity: 0, y: 24 },
   show: { opacity: 1, y: 0 }
 };
 
 export function HomePage() {
+  const isCompact = useMediaQuery('(max-width:700px)', { noSsr: true });
+  const featuredArtists = artists.slice(0, isCompact ? 16 : 80);
+  const forgottenArtists = isCompact ? [] : featuredArtists.slice(0, 40);
+  const featuredAlbums = albums.slice(0, isCompact ? 16 : 80);
+  const latestSongs = songs.slice(isCompact ? -4 : -12);
+
   return (
     <Box>
       <Box
@@ -112,7 +114,7 @@ export function HomePage() {
             {featuredArtists.map((artist) => (
               <MediaCard key={artist.id} title={artist.name} subtitle={`${artist.years} · ${artist.styles.join(', ')}`} image={artist.hero} badge={artist.region} href={`/artists/${artist.id}`} />
             ))}
-            {featuredArtists.slice(0, 40).map((artist) => (
+            {forgottenArtists.map((artist) => (
               <MediaCard key={`${artist.id}-forgotten`} title={`Autour de ${artist.name}`} subtitle="Influences, reprises et archives" image={artist.gallery[1]} badge="Oublies ?" href={`/artists/${artist.id}`} />
             ))}
           </HorizontalRail>

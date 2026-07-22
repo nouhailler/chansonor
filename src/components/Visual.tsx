@@ -3,8 +3,13 @@ import { useMemo, useState } from 'react';
 import type { VisualAsset } from '../types/content';
 
 const encode = (value: string) => encodeURIComponent(value).replace(/'/g, '%27').replace(/"/g, '%22');
+const placeholderCache = new Map<string, string>();
 
 export function placeholderDataUri(asset: Pick<VisualAsset, 'alt' | 'color' | 'kind'>) {
+  const cacheKey = `${asset.kind}|${asset.color}|${asset.alt}`;
+  const cached = placeholderCache.get(cacheKey);
+  if (cached) return cached;
+
   const label = asset.kind === 'album' ? '♪' : asset.kind === 'map' ? '⌖' : asset.kind === 'video' ? '▶' : '♫';
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
@@ -26,7 +31,9 @@ export function placeholderDataUri(asset: Pick<VisualAsset, 'alt' | 'color' | 'k
       <text x="450" y="325" text-anchor="middle" dominant-baseline="middle" font-family="Inter, Arial" font-size="132" fill="white" opacity=".92">${label}</text>
       <text x="450" y="430" text-anchor="middle" font-family="Inter, Arial" font-size="38" font-weight="800" fill="white">${asset.alt.slice(0, 34)}</text>
     </svg>`;
-  return `data:image/svg+xml;charset=UTF-8,${encode(svg)}`;
+  const dataUri = `data:image/svg+xml;charset=UTF-8,${encode(svg)}`;
+  placeholderCache.set(cacheKey, dataUri);
+  return dataUri;
 }
 
 interface VisualProps {

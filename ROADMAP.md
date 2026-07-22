@@ -49,7 +49,7 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 
 - [x] Creer les premieres fiches chansons.
 - [x] Lancer le pack long terme 001 avec 16 chansons au total.
-- [x] Lancer le pack long terme 002 avec 26 chansons au total.
+- [x] Lancer le pack long terme 002 avec 32 chansons tracables au total (`lt001` + `lt002`).
 - [x] Lancer le pack long terme 003 avec 36 chansons au total.
 - [x] Lancer le pack long terme 004 avec 51 chansons au total.
 - [x] Lancer le pack long terme 005 avec 69 chansons au total.
