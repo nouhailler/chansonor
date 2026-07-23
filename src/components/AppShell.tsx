@@ -7,9 +7,11 @@ import HomeIcon from '@mui/icons-material/Home';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import SearchIcon from '@mui/icons-material/Search';
+import SettingsIcon from '@mui/icons-material/Settings';
 import TimelineIcon from '@mui/icons-material/Timeline';
-import { AppBar, Box, Button, Container, IconButton, Stack, Toolbar, Typography } from '@mui/material';
-import { Outlet, NavLink } from 'react-router-dom';
+import { AppBar, Box, Button, Container, IconButton, Menu, MenuItem, Stack, Toolbar, Typography } from '@mui/material';
+import { useState } from 'react';
+import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { BottomNav } from './BottomNav';
 
 interface AppShellProps {
@@ -29,6 +31,17 @@ const nav = [
 ];
 
 export function AppShell({ mode, onToggleMode }: AppShellProps) {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [settingsAnchor, setSettingsAnchor] = useState<HTMLElement | null>(null);
+
+  const startDemo = () => {
+    setSettingsAnchor(null);
+    const params = new URLSearchParams(location.search);
+    params.set('demo', 'decouverte');
+    navigate(`${location.pathname}?${params.toString()}${location.hash}`);
+  };
+
   return (
     <Box sx={{ minHeight: '100vh', pb: { xs: 10, md: 0 } }}>
       <AppBar position="sticky" color="transparent" elevation={0} sx={{ backdropFilter: 'blur(22px)', bgcolor: 'rgba(255,255,255,.72)' }}>
@@ -44,17 +57,25 @@ export function AppShell({ mode, onToggleMode }: AppShellProps) {
             </Stack>
             <Stack direction="row" spacing={1} sx={{ display: { xs: 'none', md: 'flex' }, flex: 1 }}>
               {nav.map((item) => (
-                <Button key={item.to} component={NavLink} to={item.to} startIcon={<item.icon />} sx={{ borderRadius: 999, color: 'text.primary', '&.active': { bgcolor: 'primary.main', color: 'white' } }}>
+                <Button key={item.to} component={NavLink} to={item.to} data-demo-id={`nav-${item.to === '/' ? 'home' : item.to.slice(1)}`} startIcon={<item.icon />} sx={{ borderRadius: 999, color: 'text.primary', '&.active': { bgcolor: 'primary.main', color: 'white' } }}>
                   {item.label}
                 </Button>
               ))}
             </Stack>
-            <Button component={NavLink} to="/search" startIcon={<SearchIcon />} variant="contained" sx={{ ml: 'auto', borderRadius: 999 }}>
+            <Button component={NavLink} to="/search" data-demo-id="nav-search" startIcon={<SearchIcon />} variant="contained" sx={{ ml: 'auto', borderRadius: 999 }}>
               Recherche
             </Button>
             <IconButton aria-label="Changer le theme" onClick={onToggleMode}>
               {mode === 'light' ? <DarkModeIcon /> : <LightModeIcon />}
             </IconButton>
+            <IconButton aria-label="Ouvrir les reglages" data-demo-id="settings-button" onClick={(event) => setSettingsAnchor(event.currentTarget)}>
+              <SettingsIcon />
+            </IconButton>
+            <Menu anchorEl={settingsAnchor} open={Boolean(settingsAnchor)} onClose={() => setSettingsAnchor(null)}>
+              <MenuItem onClick={startDemo} data-demo-id="settings-demo-button">
+                Lancer la demo
+              </MenuItem>
+            </Menu>
           </Toolbar>
         </Container>
       </AppBar>

@@ -2,7 +2,7 @@ import PlaceIcon from '@mui/icons-material/Place';
 import { Box, Chip, Container, Grid2 as Grid, Paper, Stack, Typography } from '@mui/material';
 import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
-import { regions, styles } from '../data/library';
+import { regions, styles } from '../data/exploreData';
 
 export function ExplorePage() {
   return (

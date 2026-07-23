@@ -2,7 +2,7 @@ import { Box, Container, Paper, Stack, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
-import { timeline } from '../data/library';
+import { timeline } from '../data/timeline';
 
 export function TimelinePage() {
   return (

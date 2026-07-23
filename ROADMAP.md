@@ -4,6 +4,21 @@
 
 Chansonor est un projet vivant. Chaque session doit enrichir significativement le contenu et maintenir les index, la recherche, les liens internes, les compteurs et la documentation.
 
+## Priorite technique - Performance et demonstration
+
+- [x] Ajouter un mode demo activable par URL et depuis les reglages.
+- [x] Declarer les scenarios demo dans `src/demo/scenarios`.
+- [x] Ajouter curseur virtuel, surbrillance, narration et barre de controle.
+- [x] Isoler les donnees de demo du store reel.
+- [x] Respecter `prefers-reduced-motion` dans le mode demo.
+- [x] Decouper la bibliotheque en modules de resumes artistes, chansons, albums, timeline et donnees d’exploration.
+- [x] Charger les fiches completes uniquement au clic via import dynamique.
+- [x] Ajouter des skeletons pendant le chargement des fiches detail et de la galerie.
+- [x] Ameliorer le service worker pour le cache des chunks et assets.
+- [ ] Paginer les listes longues si le volume continue de croitre.
+- [ ] Extraire les resumes en JSON servis comme assets statiques cacheables.
+- [ ] Ajouter des tests unitaires pour le moteur demo et les loaders de donnees.
+
 ## Priorite 1 - Artistes
 
 - [x] Creer les premieres fiches artistes.
@@ -173,4 +188,4 @@ Chansonor est un projet vivant. Chaque session doit enrichir significativement l
 
 ## Prochaine tache automatique
 
-Priorite 1 : pack 035, enrichir les fiches artistes existantes et poursuivre chansons/albums avec liens internes supplementaires.
+Priorite 2 : pack chansons long terme 016, puis controle de performance mobile apres croissance des donnees.

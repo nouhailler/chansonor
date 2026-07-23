@@ -4,7 +4,9 @@ import { useEffect, useState } from 'react';
 import { MediaCard } from '../components/MediaCard';
 import { SectionHeader } from '../components/SectionHeader';
 import { placeholderDataUri } from '../components/Visual';
-import { albums, artists, songs } from '../data/library';
+import { albums } from '../data/albums';
+import { artists } from '../data/artists';
+import { songs } from '../data/songs';
 import { favoritesStore, type FavoriteItem } from '../services/favorites';
 
 export function FavoritesPage() {
@@ -30,7 +32,7 @@ export function FavoritesPage() {
           <Typography sx={{ fontWeight: 800 }}>Exemple de bibliotheque : les prochains favoris seront sauvegardes localement avec IndexedDB.</Typography>
         </Paper>
       )}
-      <Grid container spacing={3}>
+      <Grid container spacing={3} data-demo-id="favorites-library">
         {visible.map((item) => (
           <Grid size={{ xs: 12, sm: 6, md: 3 }} key={item.id}>
             <MediaCard

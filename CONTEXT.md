@@ -1,5 +1,41 @@
 # Contexte Chansonor
 
+## Etat de reprise - 2026-07-23
+
+Session technique realisee :
+
+- Ajout d’un mode demo activable par `?demo=decouverte` ou depuis les reglages.
+- Creation de `src/demo/engine.ts`, `src/demo/DemoMode.tsx`, `src/demo/session.ts` et du scenario declaratif `src/demo/scenarios/discovery.ts`.
+- Types d’etapes demo couverts : `navigate`, `click`, `type`, `wait`, `highlight`, `narrate`.
+- Ciblage demo via `data-demo-id`, curseur virtuel, surbrillance, narration, controles play/pause/etape suivante/vitesse/quitter et sortie via Echap.
+- Seed de demo isole en `sessionStorage`; le store IndexedDB reel des favoris n’est pas modifie pendant la demo.
+- Respect de `prefers-reduced-motion` dans les animations du mode demo.
+- Optimisation du chargement mobile : l’accueil ne bloque plus sur la bibliotheque complete.
+- Decoupage des donnees de liste dans `src/data/artists.ts`, `src/data/songs.ts`, `src/data/albums.ts`, `src/data/timeline.ts`, `src/data/exploreData.ts`.
+- Ajout de `src/data/summaries.ts`, `src/data/loadLibrary.ts` et `src/data/details.ts`.
+- Ancienne bibliotheque complete de 1,9 Mo deplacee vers `src/data/fullLibrary.ts`.
+- `src/data/library.ts` est maintenant une facade legere de compatibilite.
+- Les pages de liste, recherche, accueil, favoris, quiz, explore et timeline chargent des resumes legers.
+- Les pages detail artiste/chanson/album et la galerie chargent les fiches completes dynamiquement avec skeletons.
+- Service worker mis a jour en cache v2 avec navigation network-first et assets cache-first.
+- Dernieres validations : `npm test` OK, `npm run build` OK.
+
+Etat de performance observe au build :
+
+- `HomePage` : environ 12 Ko.
+- `timeline` : environ 1,2 Ko.
+- `exploreData` : environ 10 Ko.
+- `albums` : environ 164 Ko.
+- `artists` : environ 216 Ko.
+- `songs` : environ 398 Ko.
+- `fullLibrary` : environ 1,75 Mo, reserve aux fiches completes et a la galerie.
+
+Prochaine etape recommandee :
+
+- Continuer par **Priorite 2 - pack chansons long terme 016**.
+- Si la performance mobile reste limitee, remplacer les gros fichiers de resumes statiques par des assets JSON pagines ou un index par initiale/style/decennie.
+- Ajouter des tests dedies au mode demo et aux loaders de donnees.
+
 ## Etat de reprise - 2026-07-22
 
 Dernier pack realise localement : Pack long terme chansons 015 - Priorite 2.

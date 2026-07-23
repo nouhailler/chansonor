@@ -1,13 +1,16 @@
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import MapIcon from '@mui/icons-material/Map';
 import MicExternalOnIcon from '@mui/icons-material/MicExternalOn';
-import { Box, Button, Chip, Container, Grid2 as Grid, Paper, Stack, Typography } from '@mui/material';
+import { Box, Button, Chip, Container, Grid2 as Grid, Paper, Skeleton, Stack, Typography } from '@mui/material';
+import { useEffect, useState } from 'react';
 import { MediaCard } from '../components/MediaCard';
 import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
-import { artists } from '../data/library';
+import { artists } from '../data/artists';
+import { loadArtistDetail } from '../data/details';
 import { favoritesStore } from '../services/favorites';
 import { useWikimediaArtistPortraits } from '../services/wikimediaPortraits';
+import type { Artist } from '../types/content';
 
 export function ArtistsPage() {
   const portraits = useWikimediaArtistPortraits(artists);
@@ -15,7 +18,7 @@ export function ArtistsPage() {
   return (
     <Container maxWidth="xl" sx={{ py: { xs: 4, md: 6 } }}>
       <SectionHeader eyebrow="Artistes" title="Portraits, scenes, albums et collaborations" />
-      <Grid container spacing={3}>
+      <Grid container spacing={3} data-demo-id="artists-grid">
         {artists.map((artist) => (
           <Grid size={{ xs: 12, md: 4 }} key={artist.id}>
             <MediaCard title={artist.name} subtitle={`${artist.years} · ${artist.region}`} image={portraits[artist.id] ?? artist.hero} badge={artist.styles[0]} href={`/artists/${artist.id}`} wide />
@@ -27,9 +30,30 @@ export function ArtistsPage() {
 }
 
 export function ArtistDetailPage({ id }: { id?: string }) {
-  const artist = artists.find((item) => item.id === id) ?? artists[0];
-  const portraits = useWikimediaArtistPortraits([artist]);
-  const hero = portraits[artist.id] ?? artist.hero;
+  const [artist, setArtist] = useState<Artist>();
+  const fallbackArtist = artists.find((item) => item.id === id) ?? artists[0];
+  const portraits = useWikimediaArtistPortraits([fallbackArtist]);
+  const hero = artist ? portraits[artist.id] ?? artist.hero : fallbackArtist.hero;
+
+  useEffect(() => {
+    let cancelled = false;
+    setArtist(undefined);
+    loadArtistDetail(id).then((item) => {
+      if (!cancelled) setArtist(item);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
+
+  if (!artist) {
+    return (
+      <Container maxWidth="xl" sx={{ py: { xs: 4, md: 6 } }}>
+        <Skeleton variant="rounded" height={420} sx={{ borderRadius: 5 }} />
+      </Container>
+    );
+  }
+
   const favorite = () => {
     void favoritesStore.toggle({
       id: `artist-${artist.id}`,
@@ -58,7 +82,7 @@ export function ArtistDetailPage({ id }: { id?: string }) {
                 <Chip icon={<MapIcon />} label={artist.region} sx={{ bgcolor: 'white', fontWeight: 900 }} />
                 <Chip icon={<MicExternalOnIcon />} label={artist.years} sx={{ bgcolor: 'white', fontWeight: 900 }} />
               </Stack>
-              <Button onClick={favorite} variant="contained" startIcon={<FavoriteIcon />} sx={{ mt: 3, borderRadius: 999, bgcolor: 'white', color: 'primary.main', '&:hover': { bgcolor: 'rgba(255,255,255,.9)' } }}>
+              <Button onClick={favorite} data-demo-id="artist-favorite-button" variant="contained" startIcon={<FavoriteIcon />} sx={{ mt: 3, borderRadius: 999, bgcolor: 'white', color: 'primary.main', '&:hover': { bgcolor: 'rgba(255,255,255,.9)' } }}>
                 Ajouter aux favoris
               </Button>
             </Grid>

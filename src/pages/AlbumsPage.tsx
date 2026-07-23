@@ -5,13 +5,16 @@ import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 import PaidIcon from '@mui/icons-material/Paid';
 import RateReviewIcon from '@mui/icons-material/RateReview';
 import UpdateIcon from '@mui/icons-material/Update';
-import { Box, Button, Chip, Container, Grid2 as Grid, List, ListItem, ListItemAvatar, ListItemText, Paper, Stack, Typography } from '@mui/material';
+import { Box, Button, Chip, Container, Grid2 as Grid, List, ListItem, ListItemAvatar, ListItemText, Paper, Skeleton, Stack, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import { MediaCard } from '../components/MediaCard';
 import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
-import { albums } from '../data/library';
+import { albums } from '../data/albums';
+import { loadAlbumDetail } from '../data/details';
 import { favoritesStore } from '../services/favorites';
+import type { Album } from '../types/content';
 
 export function AlbumsPage() {
   return (
@@ -29,7 +32,26 @@ export function AlbumsPage() {
 }
 
 export function AlbumDetailPage({ id }: { id?: string }) {
-  const album = albums.find((item) => item.id === id) ?? albums[0];
+  const [album, setAlbum] = useState<Album>();
+
+  useEffect(() => {
+    let cancelled = false;
+    setAlbum(undefined);
+    loadAlbumDetail(id).then((item) => {
+      if (!cancelled) setAlbum(item);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
+
+  if (!album) {
+    return (
+      <Container maxWidth="xl" sx={{ py: { xs: 4, md: 6 } }}>
+        <Skeleton variant="rounded" height={420} sx={{ borderRadius: 5 }} />
+      </Container>
+    );
+  }
 
   const favorite = () => {
     void favoritesStore.toggle({

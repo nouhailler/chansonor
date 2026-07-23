@@ -17,11 +17,11 @@ export function BottomNav() {
   return (
     <Paper elevation={12} sx={{ position: 'fixed', left: 12, right: 12, bottom: 12, zIndex: 20, borderRadius: 5, overflow: 'hidden', display: { md: 'none' } }}>
       <BottomNavigation value={value} onChange={(_, next) => navigate(next)} showLabels>
-        <BottomNavigationAction label="Accueil" value="/" icon={<HomeIcon />} />
-        <BottomNavigationAction label="Artistes" value="/artists" icon={<PersonSearchIcon />} />
-        <BottomNavigationAction label="Chansons" value="/songs" icon={<AudiotrackIcon />} />
-        <BottomNavigationAction label="Albums" value="/albums" icon={<AlbumIcon />} />
-        <BottomNavigationAction label="Favoris" value="/favorites" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="Accueil" value="/" icon={<HomeIcon />} data-demo-id="mobile-nav-home" />
+        <BottomNavigationAction label="Artistes" value="/artists" icon={<PersonSearchIcon />} data-demo-id="mobile-nav-artists" />
+        <BottomNavigationAction label="Chansons" value="/songs" icon={<AudiotrackIcon />} data-demo-id="mobile-nav-songs" />
+        <BottomNavigationAction label="Albums" value="/albums" icon={<AlbumIcon />} data-demo-id="mobile-nav-albums" />
+        <BottomNavigationAction label="Favoris" value="/favorites" icon={<FavoriteIcon />} data-demo-id="mobile-nav-favorites" />
       </BottomNavigation>
     </Paper>
   );

@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Artist, VisualAsset } from '../types/content';
 
+type PortraitArtist = Pick<Artist, 'id' | 'name' | 'hero'>;
+
 type PortraitCache = Record<string, string | null>;
 
 const CACHE_KEY = 'chansonor-wikimedia-portraits-v2';
@@ -122,7 +124,7 @@ async function fetchPortraitChunk(names: string[]) {
   return portraits;
 }
 
-async function fetchPortraits(artists: Artist[]) {
+async function fetchPortraits(artists: PortraitArtist[]) {
   const labelToArtistName = new Map<string, string>();
   for (const artist of artists) {
     for (const label of [artist.name, ...(portraitAliases[artist.id] ?? [])]) {
@@ -144,7 +146,7 @@ async function fetchPortraits(artists: Artist[]) {
   return portraits;
 }
 
-export function useWikimediaArtistPortraits(artists: Artist[]) {
+export function useWikimediaArtistPortraits(artists: PortraitArtist[]) {
   const [cache, setCache] = useState<PortraitCache>(() => readCache());
   const names = useMemo(() => artists.map((artist) => artist.name), [artists]);
   const cacheKey = names.join('|');

@@ -4,7 +4,10 @@ import { useMemo, useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
-import { albums, artists, collections, songs } from '../data/library';
+import { albums } from '../data/albums';
+import { artists } from '../data/artists';
+import { collections } from '../data/exploreData';
+import { songs } from '../data/songs';
 import type { VisualAsset } from '../types/content';
 
 interface Result {
@@ -41,9 +44,10 @@ export function SearchPage() {
         onChange={(event) => setQuery(event.target.value)}
         placeholder="Tapez Piaf, vinyle, 1986, chanson..."
         InputProps={{ startAdornment: <InputAdornment position="start"><SearchIcon /></InputAdornment> }}
+        inputProps={{ 'data-demo-id': 'global-search-input' }}
         sx={{ mb: 4, '& .MuiOutlinedInput-root': { borderRadius: 999, bgcolor: 'background.paper' }, '& input': { py: 2 } }}
       />
-      <Grid container spacing={2.5}>
+      <Grid container spacing={2.5} data-demo-id="search-results">
         {results.map((result) => (
           <Grid size={{ xs: 12, sm: 6, md: 4 }} key={`${result.type}-${result.id}`}>
             <Paper component={result.href ? RouterLink : 'article'} to={result.href} sx={{ display: 'grid', gridTemplateColumns: '112px 1fr', gap: 2, p: 1.2, borderRadius: 4, textDecoration: 'none', color: 'inherit' }}>

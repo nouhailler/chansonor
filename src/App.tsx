@@ -1,7 +1,9 @@
 import { Box, CircularProgress, CssBaseline, ThemeProvider } from '@mui/material';
-import { lazy, Suspense, useMemo, useState } from 'react';
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { BrowserRouter, Navigate, Route, Routes, useParams } from 'react-router-dom';
 import { AppShell } from './components/AppShell';
+import { DemoMode } from './demo/DemoMode';
+import { preloadLibrary } from './data/loadLibrary';
 import { buildTheme } from './theme';
 
 const HomePage = lazy(() => import('./pages/HomePage').then((module) => ({ default: module.HomePage })));
@@ -45,6 +47,10 @@ export function App() {
   const [mode, setMode] = useState<'light' | 'dark'>(() => (localStorage.getItem('chansonor-theme') as 'light' | 'dark') || 'light');
   const theme = useMemo(() => buildTheme(mode), [mode]);
 
+  useEffect(() => {
+    preloadLibrary();
+  }, []);
+
   const toggleMode = () => {
     setMode((current) => {
       const next = current === 'light' ? 'dark' : 'light';
@@ -76,6 +82,7 @@ export function App() {
               <Route path="*" element={<Navigate to="/" replace />} />
             </Route>
           </Routes>
+          <DemoMode />
         </Suspense>
       </BrowserRouter>
     </ThemeProvider>

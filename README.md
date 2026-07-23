@@ -8,9 +8,12 @@ L’application met l’image au centre de l’experience : portraits, pochettes
 
 ## Etat actuel
 
+- Session technique du 2026-07-23 : mode demo ajoute, chargement mobile optimise et bibliotheque editoriale decoupee en resumes legers + fiches completes chargees a la demande.
 - Dernier pack de contenu traite : Pack long terme chansons 015.
 - Prochaine session de contenu : Pack long terme chansons 016, avec objectif de passer a 286 chansons tracables (`lt001` a `lt016`).
-- Contenus indexes dans `src/data/library.ts` : 577 artistes, 870 chansons, 397 albums, 5 collections.
+- Contenus indexes : 577 artistes, 870 chansons, 397 albums, 5 collections.
+- Donnees de liste decoupees dans `src/data/artists.ts`, `src/data/songs.ts`, `src/data/albums.ts`, `src/data/timeline.ts` et `src/data/exploreData.ts`.
+- Fiches completes conservees dans `src/data/fullLibrary.ts` et chargees dynamiquement uniquement pour les pages detail et la galerie.
 - Packs chansons long terme : 266 chansons tracables de `lt001` a `lt015`.
 - Portraits reels : chargement Wikimedia/Wikidata avec fallback visuel local pour les fiches restantes.
 - Deploiement Netlify : les routes React profondes sont prises en charge via `public/_redirects`.
@@ -44,10 +47,13 @@ L’application met l’image au centre de l’experience : portraits, pochettes
 - Recherche instantanee avec miniatures, types, styles et annees.
 - Quiz graphique avec feedback anime.
 - Favoris sauvegardes localement avec IndexedDB.
+- Mode demo activable par `?demo=decouverte` ou depuis les reglages, avec curseur virtuel, surbrillance, narration, controles play/pause/vitesse/etape suivante/quitter et sortie via Echap.
+- Donnees de demo isolees en session, sans ecriture dans le store de favoris reel.
 - Mode clair / sombre.
 - PWA avec manifest, icone d’application et service worker.
 - Lazy loading des images, `srcSet` responsive et fallback SVG automatique.
 - Portraits artistes reels charges depuis Wikimedia/Wikidata avec cache navigateur et fallback local.
+- Chargement progressif des donnees : les listes utilisent des resumes legers, les fiches completes sont chargees au clic, et les chunks sont caches par le service worker.
 
 ## Stack
 
@@ -118,7 +124,8 @@ Etat actuel :
 ```text
 src/
   components/   Composants UI reutilisables
-  data/         Donnees editoriales et references media
+  data/         Resumes editoriaux, fiches completes et references media
+  demo/         Moteur de demonstration et scenarios declaratifs
   pages/        Ecrans routes
   services/     Persistance locale et portraits Wikimedia
   styles/       Styles globaux
@@ -130,6 +137,18 @@ public/
 docs/
   screenshots/ Captures README
 ```
+
+## Chargement des donnees
+
+Les pages de liste et la recherche n’importent pas les fiches completes. Elles s’appuient sur des resumes separes :
+
+- `src/data/artists.ts`
+- `src/data/songs.ts`
+- `src/data/albums.ts`
+- `src/data/timeline.ts`
+- `src/data/exploreData.ts`
+
+Les pages detail passent par `src/data/details.ts`, qui importe dynamiquement `src/data/fullLibrary.ts` seulement lorsque l’utilisateur ouvre une fiche artiste, chanson, album ou la galerie complete. Cette architecture evite de parser toute la bibliotheque au premier affichage mobile.
 
 ## Icône
 

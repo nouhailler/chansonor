@@ -1,21 +1,29 @@
 import CollectionsIcon from '@mui/icons-material/Collections';
-import { Box, Chip, Container, Grid2 as Grid, Paper, Typography } from '@mui/material';
+import { Box, Chip, Container, Grid2 as Grid, Paper, Skeleton, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
-import { artists, albums, songs, timeline } from '../data/library';
+import { loadGalleryAssets } from '../data/details';
+import type { VisualAsset } from '../types/content';
 
 export function GalleryPage() {
-  const assets = [
-    ...artists.flatMap((artist) => [artist.hero, ...artist.gallery]),
-    ...albums.flatMap((album) => [album.cover, ...album.gallery]),
-    ...songs.flatMap((song) => [song.cover, ...song.gallery]),
-    ...timeline.map((event) => event.image)
-  ];
+  const [assets, setAssets] = useState<VisualAsset[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadGalleryAssets().then((items) => {
+      if (!cancelled) setAssets(items);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   return (
     <Container maxWidth="xl" sx={{ py: { xs: 4, md: 6 } }}>
       <SectionHeader eyebrow="Galerie" title="Portraits, affiches, pochettes, objets et scenes" />
+      {!assets.length && <Skeleton variant="rounded" height={420} sx={{ borderRadius: 5 }} />}
       <Box sx={{ columns: { xs: 1, sm: 2, md: 4 }, columnGap: 18 }}>
         {assets.map((asset, index) => (
           <Paper key={`${asset.alt}-${index}`} component={motion.article} whileHover={{ scale: 1.018 }} sx={{ breakInside: 'avoid', mb: 2.25, p: 1.1, borderRadius: 4 }}>

@@ -4,7 +4,7 @@ import ConfettiExplosion from '@mui/icons-material/AutoAwesome';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Visual } from '../components/Visual';
-import { songs } from '../data/library';
+import { songs } from '../data/songs';
 
 export function QuizPage() {
   const [won, setWon] = useState(false);

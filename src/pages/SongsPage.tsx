@@ -6,13 +6,16 @@ import HeadphonesIcon from '@mui/icons-material/Headphones';
 import LeaderboardIcon from '@mui/icons-material/Leaderboard';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import ReplayIcon from '@mui/icons-material/Replay';
-import { Box, Button, Chip, Container, Grid2 as Grid, Paper, Stack, Typography } from '@mui/material';
+import { Box, Button, Chip, Container, Grid2 as Grid, Paper, Skeleton, Stack, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import { MediaCard } from '../components/MediaCard';
 import { SectionHeader } from '../components/SectionHeader';
 import { Visual } from '../components/Visual';
-import { songs } from '../data/library';
+import { loadSongDetail } from '../data/details';
+import { songs } from '../data/songs';
 import { favoritesStore } from '../services/favorites';
+import type { Song } from '../types/content';
 
 export function SongsPage() {
   return (
@@ -30,7 +33,26 @@ export function SongsPage() {
 }
 
 export function SongDetailPage({ id }: { id?: string }) {
-  const song = songs.find((item) => item.id === id) ?? songs[0];
+  const [song, setSong] = useState<Song>();
+
+  useEffect(() => {
+    let cancelled = false;
+    setSong(undefined);
+    loadSongDetail(id).then((item) => {
+      if (!cancelled) setSong(item);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
+
+  if (!song) {
+    return (
+      <Container maxWidth="xl" sx={{ py: { xs: 4, md: 6 } }}>
+        <Skeleton variant="rounded" height={420} sx={{ borderRadius: 5 }} />
+      </Container>
+    );
+  }
 
   const favorite = () => {
     void favoritesStore.toggle({
